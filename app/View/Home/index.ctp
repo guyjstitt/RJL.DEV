@@ -28,7 +28,7 @@ $(document).ready( function () {
 
 
 <div class="table-responsive">
-<h2>Cases</h2>
+<h2>My Cases</h2>
 <table id="home" class="table">
 	<thead>
           <th>Case ID</th>
