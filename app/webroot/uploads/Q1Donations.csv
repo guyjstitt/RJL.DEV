@@ -1,0 +1,5 @@
+emailAddress,organizationName,jobTitle,donorType,donorAmount,firstName,lastName,dateOfBirth,gender,streetAddress,zipCode,city,state,phoneOne,phoneOneType,phoneTwo,phoneTwoType,donorNotes
+donor@gmail.com,walmart,manager,Identified,1232,michael,thomas,4/12/2014,Unassigned,387 kerr ln.,40109,brooks,ky,5025024502,Unassigned,5025025123,Unassigned,none
+donor@gmail.com,walmart,manager,Anonymous,1232,michael,thomas,4/13/2014,Unassigned,387 kerr ln.,40109,brooks,ky,5025024502,Unassigned,5025025123,Unassigned,none
+donor@gmail.com,walmart,manager,Identified,5000,Bob,Saget,4/14/2014,Male,555 ff,40219,Louisville,ky,5025024502,Unassigned,5025025123,Unassigned,First time donor
+donor@gmail.com,walmart,manager,Identified,6000,Steve ,Austin,4/15/2014,Male,555 dd,40118,Fairdale,ky,5025024502,Unassigned,5025025123,Unassigned,First time donor

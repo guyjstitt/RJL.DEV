@@ -1,0 +1,38 @@
+<script>
+$(document).ready(function() { 
+  $(".offenderdatepicker").datepicker({
+	 dateFormat: 'yy-mm-dd',
+      changeMonth: true,
+      changeYear: true,
+	  yearRange: "-90:+2"
+    });
+}); 
+</script>
+
+<style>
+.messageHead {
+	display: none;
+}
+</style>
+
+<div class="offenders form">
+<?php
+$gender = array('U' => '------','M' => 'Male', 'F' => 'Female');
+$race=array('Unassigned'=>'--------------------------------','White'=>'White','African-American' => 'African-American', 'Hispanic'=>'Hispanic', 'Asian'=>'Asian', 'Native Hawaiian/Pacific Islander'=>'Native Hawaiian/Pacific Islander',
+'Native American/Alaska Native'=> 'Native American/Alaska Native', 'Other/Mixed'=>'Other/Mixed');
+$phonetype = array('U' => '------','Mobile'=>'Mobile','Home'=>'Home','Work'=>'Work');
+echo $this->Form->create('Offender');
+
+echo $this->Form->inputs(array('case_id','offenderId', 'firstName', 'lastName', 'dateOfBirth'=>array('type'=>'text','class'=>'offenderdatepicker'), 'gender'=>array('options'=> $gender, 'default' => 'U'), 
+'race'=>array('options'=> $race, 'default' => 'U'),'streetAddress', 'zipCode', 'city', 'state', 'email', 'phoneOneType'=>array('options'=> $phonetype, 'default' => 'U'), 'phoneOne', 
+'phoneTwoType'=>array('options'=> $phonetype, 'default' => 'U'), 'phoneTwo','commhours'));
+echo $this->Form->end('Add');
+?>
+</div>
+
+<div class="navactions">
+    <h3>Actions</h3>
+    <ul>
+        <li><?php echo $this->Html->link('List Offenders', array('action' => 'index'));?></li>
+    </ul>
+</div>

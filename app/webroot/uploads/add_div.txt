@@ -1,0 +1,434 @@
+
+<html>
+<head>
+
+<style>
+.messageHead {
+	display: none;
+}
+</style>
+
+
+<script src="http://136.165.68.167/rjl/app/webroot/js/jquery-1.6.4.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script> 
+
+<script src="http://136.165.68.167/rjl/app/webroot/js/chosen.proto.js"></script>
+<script src="http://136.165.68.167/rjl/app/webroot/js/chosen.jquery.js"></script>
+
+<link rel="stylesheet" href="http://136.165.68.167/rjl/app/webroot/css/chosen.css">
+
+
+
+<script type="text/javascript">
+
+	function ValidateID()
+	{
+		var id = $('#caseID').val();
+		 $.ajax({                    
+			 url:'/rjl/RjCases/CaseIdCheck/' +id,
+			 type:"POST",                                        
+			 //data:{date: $('#noteDate').val(),note: $('#noteContent').val(),caseid: 2},
+			//dataType:'text',
+			 success: function(data) {
+				Validate(data);
+			}
+		});
+	}
+	function Validate(data)
+	{
+		if(data==true)
+		{
+			//case exists so warn and make red
+			alert('This Case ID Already Exists, please select another');
+			$('#caseID').css({'background-color': 'red'});
+		}else
+		{
+			//case does not exist, make sure background is white
+			$('#caseID').css({'background-color': 'white'});
+		}
+	}
+	function AddVictimCalScript(num) 
+	{
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.text = "$(document).ready(function() { $('#victimDateOfBirth"+num+"').datepicker({dateFormat: 'yy-mm-dd', changeMonth: true, changeYear: true,});});"; 
+		// Use any selector
+		document.body.appendChild(s);
+	};
+	function AddOffenderCalScript(num) 
+	{
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.text = 
+		"$(document).ready(function() { $('#offenderDateOfBirth"+num+"').datepicker({dateFormat: 'yy-mm-dd' ,changeMonth: true, changeYear: true,});});"; 
+		// Use any selector
+		document.body.appendChild(s);
+	};
+
+	function AddVictimChosenScript(num) 
+	{
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.text = "$(document).ready(function() { $('#victimGender"+num+"').chosen();});"; 
+		// Use any selector
+		document.body.appendChild(s);
+	};
+
+	function AddVictimChosenRaceScript(num) 
+	{
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.text = "$(document).ready(function() { $('#victimRace"+num+"').chosen();});"; 
+		// Use any selector
+		document.body.appendChild(s);
+	};
+		function AddVictimChosenPhoneOneTypeScript(num) 
+	{
+		var s = document.createElement("script");
+		s.type = "text/javascript";
+		s.text = "$(document).ready(function() { $('#victimPhoneOneType"+num+"').chosen();});"; 
+		// Use any selector
+		document.body.appendChild(s);
+	};
+$(document).ready(function() { 
+	$(".chosen-manager").chosen({width: "15%"});
+	
+		});
+		
+	$(document).ready(function() { 
+		$(".casedatepicker").datepicker({
+			 dateFormat: 'yy-mm-dd',
+			  changeMonth: true,
+			  changeYear: true,
+			  yearRange: "-90:+2"
+			});
+		$("#caseID").focusout( function (event) { ValidateID(); } );
+		$(".chosen-select").chosen({width: "100%"});
+		
+	});
+	
+	$(document).ready(function() { 
+	$(".chosen-id").chosen({width: "15%"});
+	
+		});
+	
+	function SearchFN(searchid) 
+	{
+		var id = "#"+searchid;
+		alert(id);
+		//var searchVal = $(id).val();
+		//alert(searchVal);
+		var $myDialog = $('<div></div>')
+			.load('/rjl/victims/searchfn/' + searchVal)
+			.dialog({
+				width: $(window).width() * 0.8,
+				height: $(window).height() * 0.8,
+				autoOpen: false,
+				title: 'Why so serious?',
+				buttons: {
+					"OK": function () {
+					$(this).dialog("close");
+					window.open('http://google.com/');
+					return true;
+				},
+					"Cancel": function () {
+						$(this).dialog("close");
+						return false;
+					}
+				}
+			});
+		$myDialog.dialog('open');
+	}
+</script>
+ 
+
+ 
+<script>
+
+  	var lastRow=0;
+	
+	function addPerson() {
+		lastRow++;
+		$("#victimsTable tbody>tr:#victim0").clone(true).attr('id','victim'+lastRow).removeAttr('style').insertBefore("#victimsTable tbody>tr:#trAdd");
+		$("#victim"+lastRow+" button.remove").attr('onclick','removePerson('+lastRow+')');
+		$("#victim"+lastRow+" button.fnSearch").attr('onclick','SearchFN('+'victimFirstName'+lastRow+')');
+		$("#victim"+lastRow+" button.lnSearch").attr('onclick','SearchLN('+lastRow+')');
+		$("#victim"+lastRow+" button.ssnSearch").attr('onclick','SearchSSN('+lastRow+')');
+		$("#Victim"+lastRow+" select.v1s").attr('name','data[Victim]['+lastRow+'][id]').attr('id','Victim'+lastRow+'Id');
+		$("#victim"+lastRow+" input:eq(0)").attr('name','data[Victim]['+lastRow+'][victimId]').attr('id','victimID'+lastRow);
+		$("#victim"+lastRow+" input:eq(1)").attr('name','data[Victim]['+lastRow+'][firstName]').attr('id','victimFirstName'+lastRow);
+		$("#victim"+lastRow+" input:eq(2)").attr('name','data[Victim]['+lastRow+'][lastName]').attr('id','victimLastName'+lastRow);
+		$("#victim"+lastRow+" input:eq(3)").attr('name','data[Victim]['+lastRow+'][dateOfBirth]').attr('id','victimDateOfBirth'+lastRow);
+		$("#victim"+lastRow+" select.g").attr('name','data[Victim]['+lastRow+'][gender]').attr('id','victimGender'+lastRow);
+		$("#victim"+lastRow+" select.r").attr('name','data[Victim]['+lastRow+'][race]').attr('id','victimRace'+lastRow);
+		$("#victim"+lastRow+" input:eq(4)").attr('name','data[Victim]['+lastRow+'][streetAddress]').attr('id','victimStreetAddress'+lastRow);
+		$("#victim"+lastRow+" input:eq(5)").attr('name','data[Victim]['+lastRow+'][zipCode]').attr('id','victimZipCode'+lastRow);
+		$("#victim"+lastRow+" input:eq(6)").attr('name','data[Victim]['+lastRow+'][city]').attr('id','victimCity'+lastRow);
+		$("#victim"+lastRow+" input:eq(7)").attr('name','data[Victim]['+lastRow+'][state]').attr('id','victimState'+lastRow);
+		$("#victim"+lastRow+" input:eq(8)").attr('name','data[Victim]['+lastRow+'][email]').attr('id','victimEmail'+lastRow);
+		$("#victim"+lastRow+" input:eq(9)").attr('name','data[Victim]['+lastRow+'][phoneOne]').attr('id','victimPhoneOne'+lastRow);
+		$("#victim"+lastRow+" select.p1t").attr('name','data[Victim]['+lastRow+'][phoneOneType]').attr('id','victimPhoneOneType'+lastRow);
+		$("#victim"+lastRow+" input:eq(10)").attr('name','data[Victim]['+lastRow+'][phoneTwo]').attr('id','victimPhoneTwo'+lastRow);
+		$("#victim"+lastRow+" select.p2t").attr('name','data[Victim]['+lastRow+'][phoneTwoType]').attr('id','victimPhoneTwoType'+lastRow);
+		AddVictimCalScript(lastRow);
+		AddVictimChosenScript(lastRow);
+		AddVictimChosenRaceScript(lastRow);
+		AddVictimChosenPhoneOneTypeScript(lastRow);
+		$("#victim"+lastRow+"Id").attr('name','data[Victim]['+lastRow+'][id]').attr('id','id'+lastRow);
+	}
+	function removePerson(x) {
+		$("#victim"+x).remove();
+	}
+	
+
+</script>
+<script>
+
+	function addOffender() {
+		lastRow++;
+		
+		$("#offendersTable tbody>tr:#offender0").clone(true).attr('id','offender'+lastRow).removeAttr('style').insertBefore("#offendersTable tbody>tr:#ofAdd");
+		$("#offender"+lastRow+" button").attr('onclick','removeOffender('+lastRow+')');
+		$("#offender"+lastRow+" input:eq(0)").attr('name','data[Offender]['+lastRow+'][offenderId]').attr('id','offenderOffenderID'+lastRow);
+		$("#offender"+lastRow+" input:eq(1)").attr('name','data[Offender]['+lastRow+'][firstName]').attr('id','offenderFirstName'+lastRow);
+		$("#offender"+lastRow+" input:eq(2)").attr('name','data[Offender]['+lastRow+'][lastName]').attr('id','offenderLastName'+lastRow);
+		$("#offender"+lastRow+" input:eq(3)").attr('name','data[Offender]['+lastRow+'][dateOfBirth]').attr('id','offenderDateOfBirth'+lastRow);
+		$("#offender"+lastRow+" select.og").attr('name','data[Offender]['+lastRow+'][gender]').attr('id','offenderGender'+lastRow);
+		$("#offender"+lastRow+" select.or").attr('name','data[Offender]['+lastRow+'][race]').attr('id','offenderRace'+lastRow);
+		$("#offender"+lastRow+" input:eq(4)").attr('name','data[Offender]['+lastRow+'][streetAddress]').attr('id','offenderStreetAddress'+lastRow);
+		$("#offender"+lastRow+" input:eq(5)").attr('name','data[Offender]['+lastRow+'][zipCode]').attr('id','offenderZipCode'+lastRow);
+		$("#offender"+lastRow+" input:eq(6)").attr('name','data[Offender]['+lastRow+'][city]').attr('id','offenderCity'+lastRow);
+		$("#offender"+lastRow+" input:eq(7)").attr('name','data[Offender]['+lastRow+'][state]').attr('id','offenderState'+lastRow);
+		$("#offender"+lastRow+" input:eq(8)").attr('name','data[Offender]['+lastRow+'][email]').attr('id','offenderEmail'+lastRow);
+		$("#offender"+lastRow+" select.opt1").attr('name','data[Offender]['+lastRow+'][phoneOneType]').attr('id','offenderPhoneOneType'+lastRow);
+		$("#offender"+lastRow+" input:eq(9)").attr('name','data[Offender]['+lastRow+'][phoneOne]').attr('id','offenderPhoneOne'+lastRow);
+		$("#offender"+lastRow+" select.opt2").attr('name','data[Offender]['+lastRow+'][phoneTwoType]').attr('id','offenderPhoneTwoType'+lastRow);
+		$("#offender"+lastRow+" input:eq(10)").attr('name','data[Offender]['+lastRow+'][phoneTwo]').attr('id','offenderPhoneTwo'+lastRow);
+		
+		AddOffenderCalScript(lastRow);
+		
+	}
+	
+	function removeOffender(x) {
+		$("#offender"+x).remove();
+	}
+	</script>
+	
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+
+<div class="cases form">
+
+<div>
+	<?php echo $this->Form->create('RjCase',array('novalidate'=>'true'));?>
+ 
+	
+ 	
+
+	
+	
+	<div class="row">
+		<div class="col-md-2">
+		<?php	echo $this->Form->input('caseId',array('label'=>'Case ID','id'=>'caseID')); ?>
+		</div>
+		
+		
+	</div>
+	 
+	<div class="row">
+	
+	<div class="col-md-2">
+	<?php echo $this->Form->input('caseStatus',array('type'=>'select','class'=>'chosen-select','data-placeholder'=>'Choose Status...','options'=>array(' '=>'  ', 'Open'=>'Open','Closed'=>'Closed'))); ?>
+	</div>
+	
+		<div class="col-md-2">
+		<?php
+		echo $this->Form->input('user_id',array('data-placeholder'=>'Choose a Case Manager...','class'=>'chosen-select','label'=>'Assign Case Manager'));
+		?> 
+		</div>
+	
+	<div class="col-md-2">
+	<?php echo $this->Form->input('Charge.0.id',array('label'=>'Select Charges')); ?>
+	</div>
+	
+	</div>
+	
+	<div class="row">
+	<div class="col-md-6">
+	<?php	echo $this->Form->input('Charge', array('class'=>'chosen-select' ,'style' => 'height: 500px')); ?>
+	</div>
+	</div>
+	
+	<div class="row">
+	<div class="col-md-2">
+			<?php echo $this->Form->input('courtDate',array('type'=>'text','class'=>'casedatepicker','readonly' =>'readonly')); ?>
+				
+		</div>
+	</div>
+	<div name="mainCase" class="row">
+	
+	
+	
+		<div class="col-md-2">
+	<?php		
+					echo $this->Form->input('dateOfReferral',array('type'=>'text','readonly' =>'readonly','class'=>'casedatepicker'));
+					
+			?>
+		</div>
+		
+		<div class="col-md-2">
+		 <?php echo $this->Form->input('dateOfCharge',array('type'=>'text','class'=>'casedatepicker','readonly' =>'readonly'));?>
+		 </div>
+	</div>
+	<?php echo $this->Form->input('caseDescription');?>
+</div>
+
+
+	<?php $phonetype = array('Unassigned' => '------','Mobile'=>'Mobile','Home'=>'Home','Work'=>'Work'); ?>
+	<?php  $race=array('Unassigned'=>'--------------------------------','White'=>'White','African-American' => 'African-American', 'Hispanic'=>'Hispanic', 'Asian'=>'Asian', 'Native Hawaiian/Pacific Islander'=>'Native Hawaiian/Pacific Islander',
+'Native American/Alaska Native'=> 'Native American/Alaska Native', 'Other/Mixed'=>'Other/Mixed'); ?>
+	
+	
+	<h3>Add Victims</h3>
+	<div class="table-responsive">
+	<table class="table" id="victimsTable">
+	<tr>
+	<tr id="victim0" style="display:none;">
+		
+		<td><?php echo $this->Form->button('&nbsp;Remove this Victim&nbsp;',array('type'=>'button','class'=>'remove','title'=>'Click Here to remove this victim','onclick'=>'removePerson()')); ?>
+		<?php echo $this->Form->input('Victim.1.id', array('type' =>'select','value'=>'','class'=>' v1s','options'=>array($victims))); ?>
+
+		<?php echo $this->Form->input('Victim.1.victimId',array('type'=>'text','id'=>'resultField2')); ?>
+		<div class="row">
+			<div class="col-sm-2">
+				<?php echo $this->Form->input('Victim.1.firstName',array('label'=>'First Name')); ?>
+				<?php echo $this->Form->input('Victim.1.lastName',array('label'=>'Last Name')); ?>
+			</div>
+			<div class="col-md-1">
+				<label>Fn</label>
+				<button type="button" class="fnSearch">Search</button>
+				<label>Ln</label>
+				<button type="button" class="lnSearch">Search</button>
+			</div>
+			<div class="col-md-3">
+				<?php echo $this->Form->input('Victim.1.streetAddress',array('label'=>'Street Address')); ?>
+				<?php echo $this->Form->input('Victim.1.city',array('label'=>'City')); ?>
+			</div>
+			<div class="col-md-3">
+				<?php echo $this->Form->input('Victim.1.dateOfBirth',array('type'=>'text')); ?>
+				<?php echo $this->Form->input('Victim.1.race',array('class'=>'r','label'=>'Race','type'=>'select','options'=>$race)); ?>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-2">
+				<?php echo $this->Form->input('Victim.1.ssn',array('label'=>'SSN')); ?>
+				<?php echo $this->Form->input('Victim.1.email',array('label'=>'Email')); ?>
+			</div>
+			<div class="col-md-1">
+				<label>SSN</label>
+				<button type="button" class="ssnSearch">Search</button>
+			</div>
+			<div class="col-md-2">
+				<?php echo $this->Form->input('Victim.1.state',array('label'=>'State','style' => 'width:75')); ?>
+			</div>
+			<div class="col-md-2">
+				<?php echo $this->Form->input('Victim.1.zipCode',array('label'=>'Zip','style' => 'width:75')); ?>
+			</div>
+			<div class="col-md-3">
+				<?php echo $this->Form->input('Victim.1.gender',array('class'=>'g','label'=>'Gender','type'=>'select','options'=>array('Unassigned'=>'----','Male' =>'Male','Female'=>'Female'))); ?>
+			</div>
+		</div>
+		
+		<div class="row">
+		
+		</div>
+		<div class="row">
+		
+		</div>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="searchGroup">
+				</div>
+				<?php echo $this->Form->input('Victim.1.phoneOneType',array('class'=>'p1t','label'=>'Phone One Type','type'=>'select','options'=>$phonetype)); ?>
+				<?php echo $this->Form->input('Victim.1.phoneOne',array('label'=>'Phone One')); ?>
+			</div>
+			<div class="col-md-4">
+				<?php echo $this->Form->input('Victim.1.phoneTwoType',array('class'=>'p2t','label'=>'Phone Two Type','type'=>'select','options'=>$phonetype)); ?>
+				<?php echo $this->Form->input('Victim.1.phoneTwo',array('label'=>'Phone Two')); ?>
+
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+			</div>
+		</div>
+		</td>
+	</tr>
+	<tr id="trAdd"> </tr>
+	<tfoot>
+		<tr>
+		<td id="trAdd"> <?php echo $this->Form->button('Add Victim(s)',array('type'=>'button','label'=>'Click Here to add another victim','onclick'=>'addPerson()')); ?> </td>
+		<tr>
+	</tfoot>
+	</table>
+	</div>
+
+	<h3>Add Offenders</h3>
+	<div class="table-responsive">
+	<table class="table" id="offendersTable">
+	<tr>
+	<tr id="offender0" style="display:none;">
+		<td><?php echo $this->Form->button('&nbsp;Remove this Offender&nbsp;',array('type'=>'button','title'=>'Click Here to remove this offender','onclick'=>'removeOffender()')); ?>
+		<?php echo $this->Form->input('unused.offenderId',array('label'=>'Offender ID','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.firstName',array('label'=>'First Name','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.lastName',array('label'=>'Last Name','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.dateOfBirth',array('label'=>'Date Of Birth')); ?>
+		<?php echo $this->Form->input('unused.gender',array('class'=>'og','label'=>'Gender','type'=>'select','options'=>array('Unassigned'=>'----','Male' =>'Male','Female'=>'Female'))); ?>
+		<?php echo $this->Form->input('unused.race',array('class'=>'or','label'=>'Race','type'=>'select','options'=>$race)); ?>
+		<?php echo $this->Form->input('unused.streetAddress',array('label'=>'Street Address','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.zipCode',array('label'=>'Zip Code','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.city',array('label'=>'City','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.state',array('label'=>'State','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.email',array('label'=>'Email','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.phoneOneType',array('class'=>'opt1','label'=>'Phone One Type','type'=>'select','options'=>$phonetype)); ?>
+		<?php echo $this->Form->input('unused.phoneOne',array('label'=>'Phone One','type'=>'text')); ?>
+		<?php echo $this->Form->input('unused.phoneTwoType',array('class'=>'opt2','label'=>'Phone Two Type','type'=>'select','options'=>$phonetype)); ?>
+		<?php echo $this->Form->input('unused.phoneTwo',array('label'=>'Phone Two','type'=>'text')); ?>
+		</td>
+	</tr>
+	<tr id="ofAdd"> </tr>
+	<tfoot>
+		<tr>
+		<td id="ofAdd"> <?php echo $this->Form->button('Add Offender(s)',array('type'=>'button','label'=>'Click Here to add another offender','onclick'=>'addOffender()')); ?> </td>
+		<tr>
+	</tfoot>
+	</table>
+	</div>
+
+ 
+	
+<?php echo $this->Form->end(__('Submit'));?>
+
+</div>
+
+<div class="navactions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+
+		<li><?php echo $this->Html->link(__('List Cases'), array('action' => 'index'));?></li>
+		
+	</ul>
+</div>
+
+</body>
+

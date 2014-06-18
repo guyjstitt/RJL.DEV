@@ -1,0 +1,996 @@
+charges,krs,uorCode
+Assault,,
+Assault - 4th Degree No Visible Injury,508030,7950
+Att Assault - 4th Degree No Visible Injury,508030,7951
+Solc Assault - 4th Degree No Visible Injury,508030,7952
+Cons Assault - 4th Degree No Visible Injury,508030,7953
+Facl Assault - 4th Degree No Visible Injury,508030,7954
+Comp Assault - 4th Degree No Visible Injury,508030,7955
+Assault - 4th Degree Minor Injury,508030,7960
+Att Assault - 4th Degree Minor Injury,508030,7961
+Solc Assault - 4th Degree Minor Injury,508030,7962
+Cons Assault - 4th Degree Minor Injury,508030,7963
+Facl Assault - 4th Degree Minor Injury,508030,7964
+Comp Assault - 4th Degree MInor Injury,508030,7965
+Assault - 4th Degree Domestic Violence No Visible Injury,508030,7970
+Att Assault - 4th Degree Domestic Violence No Visible Injury,508030,7971
+Solc Assault - 4th Degree Domestic Violence No Visible Injury,508030,7972
+Cons Assault - 4th Degree Domestic Violence No Visible Injury,508030,7973
+Facl Assault - 4th Degree Domestic Violence No Visible Injury,508030,7974
+Comp Assault - 4th Degree Domestic Violence No Visible Injury,508030,7975
+Enh Assault - 4th Degree Domestic Violence No Visible Injury,508030,7976
+Assault - 4th Degree Domestic Violence Minor Injury,508030,7980
+Att Assault - 4th Degree Domestic Violence Minor Injury,508030,7981
+Solc Assault - 4th Degree Domestic Violence Minor Injury,508030,7982
+Cons Assault - 4th Degree Domestic Violence Minor Injury,508030,7983
+Facl Assault - 4th Degree Domestic Violence Minor Injury,508030,7984
+Comp Assault - 4th Degree Domestic Violence MInor Injury,508030,7985
+Enh Assault - 4th Degree Domestic Violence Minor Injury,508030,7986
+Assault - 4th Degree Child Abuse,508030,7990
+Att Assault - 4th Degree Child Abuse,508030,7991
+Solc Assault - 4th Degree Child Abuse,508030,7992
+Cons Assault - 4th Degree Child Abuse,508030,7993
+Facl Assault - 4th Degree Child Abuse,508030,7994
+Comp Assault - 4th Degree Child Abuse,508030,7995
+Enh Assault - 4th Degree Child Abuse,508030,7996
+Burglary,,
+Burglary 2nd Degree ,511030,220610
+Att Burglary 2nd Degree ,511030,220611
+Solc Burglary 2nd Degree ,511030,220612
+Cons Burglary 2nd Degree ,511030,220613
+Facl Burglary 2nd Degree,511030,220614
+Comp Burglary 2nd Degree ,511030,220615
+Burglary 3rd Degree ,511040,220620
+Att Burglary 3rd Degree ,511040,220621
+Solc Burglary 3rd Degree ,511040,220622
+Cons Burglary 3rd Degree ,511040,220623
+Facl Burglary 3rd Degree,511040,220624
+Comp Burglary 3rd Degree ,511040,220625
+Criminal Mischief,,
+Criminal Mischief - 1st degree,512020,14010
+Att Criminal Mischief  - 1st Degree,512020,14011
+Solc Criminal Mischief - 1st Degree,512020,14012
+Cons Criminal Mischief - 1st Degree,512020,14013
+Facl Criminal Mischief - 1st Degree,512020,14014
+ Comp Criminal Mischief - 1st Degree,512020,14015
+Criminal Mischief - 2nd degree,512030,14020
+Att Criminal Mischief  - 2nd Degree,512030,14021
+Solc Criminal Mischief - 2nd Degree,512030,14022
+Cons Criminal Mischief - 2nd Degree,512030,14023
+Facl Criminal Mischief - 2nd Degree,512030,14024
+Comp Criminal Mischief - 2nd Degree,512030,14025
+Criminal Mischief - 3rd degree,512040,14030
+Att Criminal Mischief  - 3rd Degree,512040,14031
+Solc Criminal Mischief - 3rd Degree,512040,14032
+Cons Criminal Mischief - 3rd Degree,512040,14033
+Facl Criminal Mischief - 3rd Degree,512040,14034
+Comp Criminal Mischief - 3rd Degree,512040,14035
+Criminal Trespass,,
+Criminal Trespass - 1st Degree,511060,26160
+Att Criminal Trespass - 1st Degree,511060,26161
+Solc Criminal Trespass - 1st Degree,511060,26162
+Cons Criminal Trespass - 1st Degree,511060,26163
+Facl Criminal Trespass - 1st Degree,511060,26164
+Comp Criminal Trespass - 1st Degree,511060,26165
+Criminal Trespass - 3rd Degree,511080,26170
+Att Criminal Trespass - 3rd Degree,511080,26171
+Solc Criminal Trespass - 3rd Degree,511080,26172
+Cons Criminal Trespass - 3rd Degree,511080,26173
+Facl Criminal Trespass - 3rd Degree,511080,26174
+Comp Criminal Trespass - 3rd Degree,511080,26175
+Disorderly Conduct,,
+Disorderly Conduct - 1st Degree,525055,23700
+Att Disorderly Conduct - 1st Degree,525055,23701
+Solc Disorderly Conduct - 1st Degree,525055,23702
+Cons Disorderly Conduct - 1st Degree,525055,23703
+Facl Disorderly Conduct - 1st Degree,525055,23704
+Comp Disorderly Conduct - 1st Degree,525055,23705
+Disorderly Conduct - 2nd Degree,525060,23710
+Att Disorderly Conduct - 2nd Degree,525060,23711
+Solc Disorderly Conduct - 2nd Degree,525060,23712
+Cons Disorderly Conduct - 2nd Degree,525060,23713
+Facl Disorderly Conduct - 2nd Degree,525060,23714
+Comp Disorderly Conduct - 2nd Degree,525060,23715
+False Reporting,,
+Falsely Reporting an Incident,519040,26400
+Att Falsely Reporting an Incident,519040,26401
+Solc Falsely Reporting an Incident,519040,26402
+Cons Falsely Reporting an Incident,519040,26403
+Facl Falsely Reporting an Incident,519040,26404
+Comp Falsely Reporting an Incident,519040,26405
+Fleeing/Evading,,
+Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1980
+Att Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1981
+Solc Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1982
+Cons Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1983
+Facl Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1984
+Comp Fleeing or Evading Police - 2nd Degree (Motor Vehicle),520100,1985
+Fleeing or Evading Police - 2nd Degree (On Foot),520100,1990
+Att Fleeing or Evading Police - 2nd Degree (On Foot),520100,1991
+Solc Fleeing or Evading Police - 2nd Degree (On Foot),520100,1992
+Cons Fleeing or Evading Police - 2nd Degree (On Foot),520100,1993
+Facl Fleeing or Evading Police - 2nd Degree (On Foot),520100,1994
+Comp Fleeing or Evading Police - 2nd Degree (On Foot),520100,1995
+Forgery,,
+Forgery - 1st Degree,516020,250180
+Att Forgery - 1st Degree,516020,250181
+Solc Forgery - 1st Degree,516020,250182
+Cons Forgery - 1st Degree,516020,250183
+Facl Forgery - 1st Degree,516020,250184
+Comp Forgery - 1st Degree,516020,250185
+Forgery - 2nd Degree,516030,250190
+Att Forgery - 2nd Degree,516030,250191
+Solc Forgery - 2nd Degree,516030,250192
+Cons Forgery - 2nd Degree,516030,250193
+Facl Forgery - 2nd Degree,516030,250194
+Comp Forgery - 2nd Degree,516030,250195
+Forgery - 3rd Degree,516040,250230
+Att Forgery - 3rd Degree,516040,250231
+Solc Forgery - 3rd Degree,516040,250232
+Cons Forgery - 3rd Degree,516040,250233
+Facl Forgery - 3rd Degree,516040,250234
+Comp Forgery - 3rd Degree,516040,250235
+"Forgery of a Prescription, 1st offense",218A282,250130
+"Att Forgery of a Prescription, 1st offense",218A282,250131
+"Solc Forgery of a Prescription, 1st offense",218A282,250132
+"Cons Forgery of a Prescription, 1st offense",218A282,250133
+"Facl Forgery of a Prescription, 1st offense",218A282,250134
+"Comp Forgery of a Prescription, 1st offense",218A282,250135
+"Forgery of a Prescription, 2nd offense or >",218A282,250140
+"Att Forgery of a Prescription, 2nd offense or >",218A282,250141
+"Solc Forgery of a Prescription, 2nd offense or >",218A282,250142
+"Cons Forgery of a Prescription, 2nd offense or >",218A282,250143
+"Facl Forgery of a Prescription, 2nd offense or >",218A282,250144
+"Comp Forgery of a Prescription, 2nd offense or >",218A282,250145
+"Forgery of a Prescription for a Legend Drug , 1st offense",217208,250150
+"Att Forgery of a Prescription for a Legend Drug , 1st offense",217208,250151
+"Solc Forgery of a Prescription for a Legend Drug , 1st offense",217208,250152
+"Cons Forgery of a Prescription for a Legend Drug , 1st offense",217208,250153
+"Facl Forgery of a Prescription for a Legend Drug , 1st offense",217208,250154
+"Comp Forgery of a Prescription for a Legend Drug , 1st offense",217208,250155
+"Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250160
+"Att Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250161
+"Solc Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250162
+"Cons Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250163
+"Facl Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250164
+"Comp Forgery of a Prescription for a Legend Drug , 2nd offense or >",217208,250165
+Criminal Possession of a Forged Instrument - 1st Degree,516050,250610
+Att Criminal Possession of a Forged Instrument - 1st Degree,516050,250611
+Solc Criminal Possession of a Forged Instrument - 1st Degree,516050,250612
+Cons Criminal Possession of a Forged Instrument - 1st Degree,516050,250613
+Facl Criminal Possession of a Forged Instrument - 1st Degree,516050,250614
+Comp Criminal Possession of a Forged Instrument - 1st Degree,516050,250615
+Criminal Possession of a Forged Instrument - 2nd Degree,516060,250620
+Att Criminal Possession of a Forged Instrument - 2nd Degree,516060,250621
+Solc Criminal Possession of a Forged Instrument - 2nd Degree,516060,250622
+Cons Criminal Possession of a Forged Instrument - 2nd Degree,516060,250623
+Facl Criminal Possession of a Forged Instrument - 2nd Degree,516060,250624
+Comp Criminal Possession of a Forged Instrument - 2nd Degree,516060,250625
+Criminal Possession of a Forged Instrument - 3rd Degree,516070,10060
+Att Criminal Possession of a Forged Instrument - 3rd Degree,516070,10061
+Solc Criminal Possession of a Forged Instrument - 3rd Degree,516070,10062
+Cons Criminal Possession of a Forged Instrument - 3rd Degree,516070,10063
+Facl Criminal Possession of a Forged Instrument - 3rd Degree,516070,10064
+Comp Criminal Possession of a Forged Instrument - 3rd Degree,516070,10065
+"Criminal Possession of a Forged Prescription, 1st offense",218A284,250630
+"Att Criminal Possession of a Forged Prescription, 1st offense",218A284,250631
+"Solc Criminal Possession of a Forged Prescription, 1st offense",218A284,250632
+"Cons Criminal Possession of a Forged Prescription, 1st offense",218A284,250633
+"Facl Criminal Possession of a Forged Prescription, 1st offense",218A284,250634
+"Comp Criminal Possession of a Forged Prescription, 1st offense",218A284,250635
+"Enh Criminal Possession of a Forged Prescription, 1st offense",218A284,250636
+"Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250640
+"Att Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250641
+"Solc Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250642
+"Cons Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250643
+"Facl Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250644
+"Comp Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250645
+"Enh Criminal Possession of a Forged Prescription, 2nd offense or >",218A284,250646
+Possession of a Forgery Device - Identify,516090,250800
+Att Possession of a Forgery Device - Identify,516090,250801
+Solc Possession of a Forgery Device - Identify,516090,250802
+Cons Possession of a Forgery Device - Identify,516090,250803
+Facl Possession of a Forgery Device - Identify,516090,250804
+Comp Possession of a Forgery Device - Identify,516090,250805
+Forgery - Altering Registration Form ,116047,252200
+Att Forgery - Altering Registration Form ,116047,252201
+Solc orgery - Altering Registration Form ,116047,252202
+Cons Forgery - Altering Registration Form ,116047,252203
+Facl Forgery - Altering Registration Form ,116047,252204
+Comp Forgery - Altering Registration Form ,116047,252205
+Forgery - Nomination Papers,119065,252300
+Att Forgery - Nomination Papers,119065,252301
+Solc Forgery - Nomination Papers,119065,252302
+Cons Forgery - Nomination Papers,119065,252303
+Facl Forgery - Nomination Papers,119065,252304
+Comp Forgery - Nomination Papers,119065,252305
+Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420540
+Att Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420541
+Solc Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420542
+Cons Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420543
+Facl Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420544
+Comp Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420545
+Enh Attempt/Obtain Cont Sub by Fraud/False Stmt/Forgery ,218A1401A,420546
+Fraud of Use Credit Card,,
+Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711490
+Att Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711491
+Solc Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711492
+Cons Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711493
+Facl Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711494
+Comp Fraudulent Use of Credit Card U/$500 w/ 6 month period,434.65,711495
+"Fraudulent Use of Credit Card U/$10,000",434.65,711500
+"Att Fraudulent Use of Credit Card U/$10,000",434.65,711501
+"Solc Fraudulent Use of Credit Card U/$10,000",434.65,711502
+"Cons Fraudulent Use of Credit Card U/$10,000",434.65,711503
+"Facl Fraudulent Use of Credit Card U/$10,000",434.65,711504
+"Comp Fraudulent Use of Credit Card U/$10,000",434.65,711505
+"Fraudulent Use of Credit Card $10,000 or more",434.65,711510
+"Att Fraudulent Use of Credit Card $10,000 or more",434.65,711511
+"Solc Fraudulent Use of Credit Card $10,000 or more",434.65,711512
+"Cons Fraudulent Use of Credit Card $10,000 or more",434.65,711513
+"Facl Fraudulent Use of Credit Card $10,000 or more",434.65,711514
+"Comp Fraudulent Use of Credit Card $10,000 or more",434.65,711515
+Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711520
+Att Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711521
+Solc Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711522
+Cons Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711523
+Facl Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711524
+Comp Fraud Use Credit Card After Report Lost/Stolen U/$500,434.655,711525
+"Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711530
+"Att Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711531
+"Solc Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711532
+"Cons Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711533
+"Facl Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711534
+"Comp Fraud Use Credit Card After Report Lost/Stolen U/$10,000",434.655,711535
+"Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711540
+"Att Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711541
+"Solc Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711542
+"Cons Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711543
+"Facl Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711544
+"Comp Fraud Use Credit Card After Report Lost/Stolen $10,000 >",434.655,711545
+Giving Officer False Name or Address,523110(1),26950
+Att Giving Officer False Name or Address,523110(1),26951
+Solc Giving Officer False Name or Address,523110(1),26952
+Cons Giving Officer False Name or Address,523110(1),26953
+Facl Giving Officer False Name or Address,523110(1),26954
+Comp Giving Officer False Name or Address,523110(1),26955
+Harrassment,,
+Harassing Communication ,525080,24020
+Att Harassing Communication ,525080,24021
+Solc Harassing Communication ,525080,24022
+Cons Harassing Communication ,525080,24023
+Facl Harassing Communication ,525080,24024
+Comp Harassing Communication ,525080,24025
+Harassment - No Physical Contact,525070,24050
+Att Harassment - No Physical Contact,525070,24051
+Solc Harassment - No Physical Contact,525070,24052
+Cons Harassment - No Physical Contact,525070,24053
+Facl Harassment - No Physical Contact,525070,24054
+Comp Harassment - No Physical Contact,525070,2455
+Harassment - (Physical Contact) No Injury,525070(1A),24070
+Att Harassment - (Physical Contact) No Injury,525070(1A),24071
+Solc Harassment - (Physical Contact) No Injury,525070(1A),24072
+Cons Harassment - (Physical Contact) No Injury,525070(1A),24073
+Facl Harassment - (Physical Contact) No Injury,525070(1A),24074
+Comp Harassment - (Physical Contact) No Injury,525070(1A),24075
+Loitering ,,
+Loitering ,525090,27300
+Att Loitering ,525090,27301
+Solc Loitering ,525090,27302
+Cons Loitering ,525090,27303
+Facl Loitering ,525090,27304
+Comp Loitering ,525090,27305
+Menacing,,
+Menacing,508050,8030
+Att Menacing,508050,8031
+Solc Menacing ,508050,8032
+Cons Menacing,508050,8033
+Facl Menacing,508050,8034
+Comp Menacing,508050,8035
+Narcotics (Misdemenors),,
+"Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422410
+"Att Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422411
+"Solc Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422412
+"Cons Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422413
+"Facl Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422414
+"Comp Possession Controlled Substance - 2nd Degree, Amphetamine ",218A1416,422415
+"Possession Controlled Substance - 2nd Degree, Barbituate",218A1416,422420
+"Att Possession Controlled Substance - 2nd Degree, Barbituate",218A1416,422421
+"Solc Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422422
+"Cons Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422423
+"Facl Possession Controlled Substance - 2nd Degree, Barbituate  ",218A1416,422424
+"Comp Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422425
+"Possession Controlled Substance - 2nd Degree, Barbituate",218A1416,422430
+"Att Possession Controlled Substance - 2nd Degree, Barbituate",218A1416,422431
+"Solc Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422432
+"Cons Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422433
+"Facl Possession Controlled Substance - 2nd Degree, Barbituate  ",218A1416,422434
+"Comp Possession Controlled Substance - 2nd Degree, Barbituate ",218A1416,422435
+"Possession Controlled Substance - 2nd Degree, Anabolic Steroid",218A1416,422440
+"Att Possession Controlled Substance - 2nd Degree, Anabolic Steroid",218A1416,422441
+"Solc Possession Controlled Substance - 2nd Degree, Anabolic Steroid",218A1416,422442
+"Cons Possession Controlled Substance - 2nd Degree, Anabolic Steroid ",218A1416,422443
+"Facl Possession Controlled Substance - 2nd Degree, Anabolic Steroid   ",218A1416,422444
+"Comp Possession Controlled Substance - 2nd Degree, Anabolic Steroid ",218A1416,422445
+"Possession Controlled Substance - 2nd Degree, Drug Unspecified ",218A1416,422450
+"Att Possession Controlled Substance - 2nd Degree, Drug Unspecified ",218A1416,422451
+"Solc Possession Controlled Substance - 2nd Degree, Drug Unspecified ",218A1416,422452
+"Cons Possession Controlled Substance - 2nd Degree, Drug Unspecified ",218A1416,422453
+"Facl Possession Controlled Substance - 2nd Degree, Drug Unspecified   ",218A1416,422454
+"Comp Possession Controlled Substance - 2nd Degree, Drug Unspecified",218A1416,422455
+"Possession Controlled Substance - 2nd Degree, Codeine",218A1416,422460
+"Att Possession Controlled Substance - 2nd Degree, Codeine",218A1416,422461
+"Solc Possession Controlled Substance - 2nd Degree, Codeine",218A1416,422462
+"Cons Possession Controlled Substance - 2nd Degree, Codeine ",218A1416,422463
+"Facl Possession Controlled Substance - 2nd Degree, Codeine   ",218A1416,422464
+"Comp Possession Controlled Substance - 2nd Degree, Codeine ",218A1416,422465
+Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422500
+Att Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422501
+Solc Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422502
+Cons Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422503
+Facl Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422504
+Comp Possession of Synthetic Cannabinoid Agonists or Piperazines,218A.1427,422505
+"Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422630
+"Att Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422631
+"Solc Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422632
+"Cons Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422633
+"Facl Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422634
+"Comp Possesion Controlled Substance - 3rd Degree, Drug Unspecified ",218A1417,422635
+Possession of Salvia ,217A.1451,422700
+Att Possession of Salvia ,217A.1451,422701
+Solc Possession of Salvia ,217A.1451,422702
+Cons Possession of Salvia ,217A.1451,422703
+Facl Possession of Salvia ,217A.1451,422704
+Comp Possession of Salvia ,217A.1451,422705
+Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423040
+Att Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423041
+Solc Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423042
+Cons Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423043
+Facl Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423044
+Comp Manufacture of Synthetic Cannaboid Agonists or Piperazines,218A.1428,423045
+Cultivation of Salvia ,218A.1452,423550
+Att Cultivation of Salvia ,218A.1452,423551
+Solu Cultivation of Salvia ,218A.1452,423552
+Cons Cultivation of Salvia ,218A.1452,423553
+Facl Cultivation of Salvia ,218A.1452,423554
+Comp Cultivation of Salvia ,218A.1452,423555
+"Att Tics - 1st Degree, 1st offense (< 10 D.U. Date Rape Drug)",218A1412,423621
+"Solc Tics - 1st Degree, 1st offense (< 10 D.U. Date Rape Drug)",218A1412,423622
+"Facl Tics - 1st Degree, 1st offense (< 10 D.U. Date Rape Drug)",218A1412,423624
+"Att Tics - 1st Degree, 1st offense (< 2 Gms Methamphetamine)",218A1412 ,423661
+"Solc Tics - 1st Degree, 1st offense (< 2 Gms Methamphetamine)",218A1412 ,423662
+"Facl Tics - 1st Degree, 1st offense (< 2 Gms Methamphetamine)",218A1412 ,423664
+"Att Tics - 1st Degree, 1st offense (< 4 Gms Cocaine)",218A1412 ,423701
+"Solc Tics - 1st Degree, 1st offense (< 4 Gms Cocaine)",218A1412 ,423702
+"Facl Tics - 1st Degree, 1st offense (< 4 Gms Cocaine)",218A1412 ,423704
+"Att Tics - 1st Degree, 1st offense (< 10 D.U. Opiates)",218A1412 ,423741
+"Solc Tics - 1st Degree, 1st offense (< 10 D.U. Opiates)",218A1412 ,423742
+"Facl Tics - 1st Degree, 1st offense (< 10 D.U. Opiates)",218A1412 ,423744
+"Att Tics - 1st Degree, 1st offense (< 2 Gms Heroin)",218A1412 ,423781
+"Solc Tics - 1st Degree, 1st offense (< 2 Gms Heroin)",218A1412 ,423782
+"Facl Tics - 1st Degree, 1st offense (< 2 Gms Heroin)",218A1412 ,423784
+"Att Tics - 1st Degree, 1st offense (< 10 D.U. Drug Unsp Sched 1 & 2)",218A1412 ,423821
+"Solc Tics - 1st Degree, 1st offense (< 10 D.U. Drug Unsp Sched 1 & 2)",218A1412 ,423822
+"Facl Tics - 1st Degree, 1st offense (< 10 D.U. Drug Unsp Sched 1 & 2)",218A1412 ,423824
+"Att Tics - 2nd Degree, 1st offense (> 10 D.U. Codeine)",218A14131A,424361
+"Solc Tics - 2nd Degree, 1st offense (> 10 D.U. Codeine)",218A14131A,424362
+"Facl Tics - 2nd Degree, 1st offense (> 10 D.U. Codeine)",218A14131A,424364
+"Att Tics - 2nd Degree, 1st offense (< 10 D.U. Codeine)",218A14131A,424371
+"Solc Tics - 2nd Degree, 1st offense (< 10 D.U. Codeine)",218A14131A,424372
+"Facl Tics - 2nd Degree, 1st offense (< 10 D.U. Codeine)",218A14131A,424374
+"Att Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Codeine)",218A14131A,424381
+"Solc Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Codeine)",218A14131A,424382
+"Facl Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Codeine)",218A14131A,424384
+"Att Tics - 2nd Degree, 1st offense (> 10 Gms Amphetamine)",218A14131A,424391
+"Solc Tics - 2nd Degree, 1st offense (> 10 Gms Amphetamine)",218A14131A,424392
+"Facl Tics - 2nd Degree, 1st offense (> 10 Gms Amphetamine)",218A14131A,424394
+Trafficking in Napthylprovalerone ,218A1453,424400
+Att Trafficking in Napthylprovalerone ,218A1453,424401
+Solc Trafficking in Napthylprovalerone ,218A1453,424402
+Cons Trafficking in Napthylprovalerone ,218A1453,424403
+Facl Trafficking in Napthylprovalerone ,218A1453,424404
+Comp Trafficking in Napthylprovalerone ,218A1453,424405
+"Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424410
+"Att Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424411
+"Solc Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424412
+"Cons Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424413
+"Facl Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424414
+"Comp Trafficking in 3,4 Methylene Dioxypyrovalerone",218A1453,424415
+"Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424420
+"Att Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424421
+"Solc Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424422
+"Cons Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424423
+"Facl Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424424
+"Comp Trafficking in 3,4 Methylene Dioxymethylcathinone",218A1453,424425
+Trafficking in 4 Methylmethcathinone,218A1453,424430
+Att Trafficking in 4 Methylmethcathinone,218A1453,424431
+Solc Trafficking in 4 Methmethcathinone,218A1453,424432
+Cons Trafficking in 4 Methylmethcathinone,218A1453,424433
+Facl Trafficking in 4 Methylmethcathinone,218A1453,424434
+Comp Trafficking in 4 Methylmethcathinone,218A1453,424435
+"Att Tics - 2nd Degree, 1st offense (< 20 D.U. Barbituate)",218A14131A,424451
+"Solc Tics - 2nd Degree, 1st offense (< 20 D.U. Barbituate)",218A14131A,424452
+"Cons Tics - 2nd Degree, 1st offense (< 20 D.U. Barbituate) ",218A14131A,424454
+"Att Tics - 2nd Degree, 2nd or > offense (< 20 D.U. Barbituate)",218A14131A,424461
+"Solc Tics - 2nd Degree, 2nd or > offense (< 20 D.U. Barbituate)",218A14131A,424462
+"Cons Tics - 2nd Degree, 2nd or > offense (< 20 D.U. Barbituate) ",218A14131A,424464
+"Att Tics - 2nd Degree, 1st offense (> 10 D.U. Hallucinogin)",218A14131A,424471
+"Solc Tics - 2nd Degree, 1st offense (> 10 D.U. Hallucinogin)",218A14131A,424472
+"Cons Tics - 2nd Degree, 1st offense (> 10 D.U. Hallucinogin) ",218A14131A,424474
+"Att Tics - 2nd Degree, 1st offense (< 10 D.U. Hallucinogin)",218A14131A,424491
+"Solc Tics - 2nd Degree, 1st offense (< 10 D.U. Hallucinogin)",218A14131A,424492
+"Cons Tics - 2nd Degree, 1st offense (< 10 D.U. Hallucinogin) ",218A14131A,424494
+Possession of Napthylprovalerone,218A1454,424500
+Att Possession of Napthylprovalerone,218A1454,424501
+Solc Possession of Napthylprovalerone,218A1454,424502
+Cons Possession of Napthylprovalerone,218A1454,424503
+Facl Possession of Napthylprovalerone,218A1454,424504
+Comp Possession of Napthylprovalerone,218A1454,424505
+"Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424510
+"Att Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424511
+"Solc Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424512
+"Cons Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424513
+"Facl Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424514
+"Comp Possession of 3,4 Methylene Dioxypyrovalerone",218A1454,424515
+"Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424520
+"Att Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424521
+"Solc Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424522
+"Cons Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424523
+"Facl Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424524
+"Comp Possession of 3,4 Methylene Dioxymethylcathinone",218A1454,424525
+Possession of 4 Methylmethcathinone,218A1454,424530
+Att Possession of 4 Methylmethcathinone,218A1454,424531
+Solc Possession of 4 Methmethcathinone,218A1454,424532
+Cons Possession of 4 Methylmethcathinone,218A1454,424533
+Facl Possession of 4 Methylmethcathinone,218A1454,424534
+Comp Possession of 4 Methylmethcathinone,218A1454,424535
+"Att Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Sched 1&2Non- Narc)",218A14131A,424541
+"Solc Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Sched 1&2Non- Narc)",218A14131A,424542
+"Facl Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Sched 1&2Non- Narc)",218A14131A,424544
+"Att Tics - 2nd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A14131A,424551
+"Solc Tics - 2nd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A14131A,424552
+"Facl Tics - 2nd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A14131A,424554
+"Att Tics - 2nd Degree, 1st offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424571
+"Solc Tics - 2nd Degree, 1st offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424572
+"Facl Tics - 2nd Degree, 1st offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424574
+"Att Tics - 2nd Degree, 2nd offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424581
+"Solc Tics - 2nd Degree, 2nd offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424582
+"Facl Tics - 2nd Degree, 2nd offense (< 20 D.U. Drug Unspecified Sch 3)",218A14131A,424584
+Manufacturing Napthylprovalerone ,218A1455,424600
+Att Manufacturing Napthylprovalerone ,218A1455,424601
+Solc Manufacturing Napthylprovalerone ,218A1455,424602
+Cons Manufacturing Napthylprovalerone ,218A1455,424603
+Facl Manufacturing Napthylprovalerone ,218A1455,424604
+Comp Manufacturing Napthylprovalerone ,218A1455,424605
+"Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424610
+"Att Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424611
+"Solc Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424612
+"Cons Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424613
+"Facl Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424614
+"Comp Manufacturing 3,4 Methylene Dioxypyrovalerone",218A1455,424615
+"Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424620
+"Att Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424621
+"Solc Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424622
+"Cons Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424623
+"Facl Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424624
+"Comp Manufacturing 3,4 Methylene Dioxymethylcathinone",218A1455,424625
+Manufacturing 4 Methylmethcathinone,218A1455,424630
+Att Manufacturing 4 Methylmethcathinone,218A1455,424631
+Solc Manufacturing 4 Methmethcathinone,218A1455,424632
+Cons Manufacturing 4 Methylmethcathinone,218A1455,424633
+Facl Manufacturing 4 Methylmethcathinone,218A1455,424634
+Comp Manufacturing 4 Methylmethcathinone,218A1455,424635
+"Att Tics - 2nd Degree, 1st offense (< 10 D.U. Amphetamine)",218A14131A,425511
+"Solc Tics - 2nd Degree, 1st offense (< 10 D.U. Amphetamine)",218A14131A,424512
+"Facl Tics - 2nd Degree, 1st offense (< 10 D.U. Amphetamine)",218A14131A,424514
+"Att Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Amphetamine)",218A14131A,425521
+"Solc Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Amphetamine)",218A14131A,425522
+"Facl Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Amphetamine)",218A14131A,425524
+"Att Tics - 2nd Degree, 1st offense (>= 20 D.U. Barbituate)",218A14131A,425531
+"Solc Tics - 2nd Degree, 1st offense (>= 20 D.U. Barbituate)",218A14131A,425532
+"Facl Tics - 2nd Degree, 1st offense (>= 20 D.U. Barbituate)",218A14131A,425534
+"Att Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Hallucinogen)",218A14131A,425601
+"Solc Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Hallucinogen)",218A14131A,425602
+"Facl Tics - 2nd Degree, 2nd or > offense (< 10 D.U. Hallucinogen)",218A14131A,425604
+"Att Tics - 2nd Degree, 1st offense (>= 10 D.U. Sched 1&2 Non-Narc)",218A14131A,0425611+A531:C534
+"Solc Tics - 2nd Degree, 1st offense (>= 10 D.U. Sched 1&2 Non-Narc)",218A14131A,425612
+"Facl Tics - 2nd Degree, 1st offense (>= 10 D.U. Sched 1&2 Non-Narc)",218A14131A,425614
+"Att Tics - 2nd Degree, 1st offense (< 10 D.U. Sched 1&2 Non-Narc)",218A14131A,425631
+"Solc Tics - 2nd Degree, 1st offense (< 10 D.U. Sched 1&2 Non-Narc)",218A14131A,425632
+"Facl Tics - 2nd Degree, 1st offense (< 10 D.U. Sched 1&2 Non-Narc)",218A14131A,425634
+"Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425700
+"Att Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425701
+"Solc Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425702
+"Cons Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425703
+"Facl Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425704
+"Comp Tics - 3rd Degree, 1st offense (>= 20 D.U. Drug Unspecified Sch 3)",218A1414,425705
+"Att Tics - 3rd Degree, 2nd or > offense (>= 20 D.U. Drug Unspecified)",218A1414,425711
+"Solc Tics - 3rd Degree, 2nd or > offense (>= 20 D.U. Drug Unspecified)",218A1414,425712
+"Facl Tics - 3rd Degree, 2nd or > offense (>= 20 D.U. Drug Unspecified)",218A1414,425714
+"Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425720
+"Att Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425721
+"Solc Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425722
+"Cons Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425723
+"Facl Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425724
+"Comp Tics - 3rd Degree, 1st offense (< 20 D.U. Drug Unspecified)",218A1414,425725
+"Att Tics - 3rd Degree, 2nd or > offense (< 20 D.U. Drug Unspecified)",218A1414,425731
+"Solc Tics - 3rd Degree, 2nd or > offense (< 20 D.U. Drug Unspecified)",218A1414,425732
+"Facl Tics - 3rd Degree, 2nd or > offense (< 20 D.U. Drug Unspecified)",218A1414,425734
+Prostitution,,
+Prostitution,529020,16000
+Att Prostitution,529020,16001
+Solc Prostitution,529020,16002
+Cons Prostitution,529020,16003
+Facl Prostitution,529020,16004
+Comp Prostitution,529020,16005
+Permitting Prostitution,529070,16040
+Att Permitting Prostitution,529070,16041
+Solc Permitting Prostitution,529070,16042
+Cons Permitting Prostitution,529070,16043
+Facl Permitting Prostitution,529070,16044
+Comp Permitting Prostitution,529070,16045
+Loitering for Prostitution Purposes - 2nd > offense ,529080,16050
+Att Loitering for Prostitution Purposes - 2nd > offense ,529080,16051
+Solc Loitering for Prostitution Purposes - 2nd > offense ,529080,16052
+Cons Loitering for Prostitution Purposes - 2nd > offense ,529080,16053
+Facl Loitering for Prostitution Purposes - 2nd > offense ,529080,16054
+Comp Loitering for Prostitution Purposes - 2nd > offense ,529080,16055
+Prostitution While Infected (S.T.D.),529090(2),16070
+Att Prostitution While Infected (S.T.D.),529090(2),16071
+Solc Prostitution While Infected (S.T.D.),529090(2),16072
+Cons Prostitution While Infected (S.T.D.),529090(2),16073
+Facl Prostitution While Infected (S.T.D.),529090(2),16074
+Comp Prostitution While Infected (H.I.V.),529090(2),16075
+Att Prostitution While Infected (H.I.V.),529090(3),16081
+Solc Prostitution While Infected (H.I.V.),529090(3),16082
+Cons Prostitution While Infected (H.I.V.),529090(3),16083
+Facl Prostitution While Infected (H.I.V.),529090(3),16084
+"Att Prostitution, Procuring While Infected (H.I.V.)",529090(4),16091
+"Solc Prostitution, Procuring While Infected (H.I.V.)",529090(4),16092
+"Cons Prostitution, Procuring While Infected (H.I.V.)",529090(4),16093
+"Facl Prostitution, Procuring While Infected (H.I.V.)",529090(4),16094
+Promoting Prostitution,529040,401900
+Att Promoting Prostitution,529040,401901
+Solc Promoting Prostitution,529040,401902
+Cons Promoting Prostitution,529040,401903
+Facl Promoting Prostitution,529040,401904
+Comp Promoting Prostitution,529040,401905
+Att Promoting Prostitution (2 or more Prostitutes),529040,401911
+Solc Promoting Prostitution (2 or more Prostitutes),529040,401912
+Cons Promoting Prostitution (2 or more Prostitutes),529040,401913
+Facl Promoting Prostitution (2 or more Prostitutes),529040,401914
+Receiving Stolen Property,,
+Att Receiving Stolen Property (Firearm),514.11,280201
+Solc Receiving Stolen Property (Firearm),514.11,280202
+Cons Receiving Stolen Property (Firearm),514.11,280203
+Facl Receiving Stolen Property (Firearm),514.11,280204
+Att Receiving Stolen Property (Anhydrous Ammonia),514.11,280211
+Solc Receiving Stolen Property (Anhydrous Ammonia),514.11,280212
+Cons Receiving Stolen Property (Anhydrous Ammonia),514.11,280213
+Facl Receiving Stolen Property (Anhydrous Ammonia),514.11,280214
+Receiving Stolen Property U/$500,514.11,280310
+Att Receiving Stolen Property U/$500,514.11,280311
+Solc Receiving Stolen Property U/$500,514.11,280312
+Cons Receiving Stolen Property U/$500,514.11,280313
+Facl Receiving Stolen Property U/$500,514.11,280314
+Comp Receiving Stolen Property U/$500,514.11,280315
+"Att Receiving Stolen Property U/$10,000",514.11,280321
+"Solc Receiving Stolen Property U/$10,000",514.11,280322
+"Cons Receiving Stolen Property U/$10,000",514.11,280323
+"Facl Receiving Stolen Property U/$10,000",514.11,280324
+"Att Receiving Stolen Property $10,000 or more",514.11,280331
+"Solc Receiving Stolen Property $10,000 or more",514.11,280332
+"Cons Receiving Stolen Property $10,000 or more",514.11,280333
+"Facl Receiving Stolen Property $10,000 or more",514.11,280334
+Terroristic Theratening ,,
+Att Terroristic Theratening - 1st Degree,508075,8201
+Solc Terroristic Theratening - 1st Degree,508075,8202
+Cons Terroristic Theratening - 1st Degree,508075,8203
+Facl Terroristic Theratening - 1st Degree,508075,8204
+Att Terroristic Theratening - 2nd Degree,508078,8211
+Solc Terroristic Theratening - 2nd Degree,508078,8212
+Cons Terroristic Theratening - 2nd Degree,508078,8213
+Facl Terroristic Theratening - 2nd Degree,508078,8214
+Att Terroristic Theratening - 3rd Degree,508080,8221
+Solc Terroristic Theratening - 3rd Degree,508080,8222
+Cons Terroristic Theratening - 3rd Degree,508080,8223
+Facl Terroristic Theratening - 3rd Degree,508080,8224
+Theft,,
+Theft by Unlawful Taking/Disp - Pocket Picking,514030,230100
+Att Theft by Unlawful Taking/Disp - Pocket Picking,514030,230101
+Solc Theft by Unlawful Taking/Disp - Pocket Picking,514030,230102
+Cons Theft by Unlawful Taking/Disp - Pocket Picking,514030,230103
+Facl Theft by Unlawful Taking/Disp - Pocket Picking,514030,230104
+Comp Theft by Unlawful Taking/Disp - Pocket Picking,514030,230105
+"TBUT - Pocket Picking $10,000 or more",514030,230150
+"Att TBUT - Pocket Picking $10,000 or more",514030,230151
+"Solc TBUT - Pocket Picking $10,000 or more",514030,230152
+"Cons TBUT - Pocket Picking $10,000 or more",514030,230153
+"Facl TBUT - Pocket Picking $10,000 or more",514030,230154
+"Comp TBUT - Pocket Picking $10,000 or more",514030,230155
+Theft by Unlawful Taking/Disp - Pocket Picking,514030,230190
+Att Theft by Unlawful Taking/Disp - Pocket Picking,514030,230191
+Solc Theft by Unlawful Taking/Disp - Pocket Picking,514030,230192
+Cons Theft by Unlawful Taking/Disp - Pocket Picking,514030,230193
+Facl Theft by Unlawful Taking/Disp - Pocket Picking,514030,230194
+Comp Theft by Unlawful Taking/Disp - Pocket Picking,514030,230195
+Theft by Unlawful Taking/Disp - Purse Snatching,514030,230200
+Att Theft by Unlawful Taking/Disp - Purse Snatching,514030,230201
+Solc Theft by Unlawful Taking/Disp - Purse Snatching,514030,230202
+Cons Theft by Unlawful Taking/Disp - Purse Snatching,514030,230203
+Facl Theft by Unlawful Taking/Disp - Purse Snatching,514030,230204
+Comp Theft by Unlawful Taking/Disp - Purse Snatching,514030,230205
+"TBUT - Purse Snatching $10,000 or more",514030,230250
+"Att TBUT - Purse Snatching $10,000 or more",514030,230251
+"Solc TBUT - Purse Snatching $10,000 or more",514030,230252
+"Cons TBUT - Purse Snatching $10,000 or more",514030,230253
+"Facl TBUT - Purse Snatching $10,000 or more",514030,230254
+"Comp TBUT - Purse Snatching $10,000 or more",514030,230255
+Theft by Unlawful Taking/Disp - Purse Snatching,514030,230290
+Att Theft by Unlawful Taking/Disp - Purse Snatching,514030,230291
+Solc Theft by Unlawful Taking/Disp - Purse Snatching,514030,230292
+Cons Theft by Unlawful Taking/Disp - Purse Snatching,514030,230293
+Facl Theft by Unlawful Taking/Disp - Purse Snatching,514030,230294
+Comp Theft by Unlawful Taking/Disp - Purse Snatching,514030,230295
+Theft by Unlawful Taking/Disp - Shoplifting,514030,230300
+Att Theft by Unlawful Taking/Disp - Shoplifting,514030,230301
+Solc Theft by Unlawful Taking/Disp - Shoplifting,514030,230302
+Cons Theft by Unlawful Taking/Disp - Shoplifting,514030,230303
+Facl Theft by Unlawful Taking/Disp - Shoplifting,514030,230304
+Comp Theft by Unlawful Taking/Disp - Shoplifting,514030,230305
+"TBUT - Shoplifting $10,000 or more",514030,230350
+"Att TBUT - Shoplifting $10,000 or more",514030,230351
+"Solc TBUT - Shoplifting  $10,000 or more",514030,230352
+"Cons TBUT -Shoplifting $10,000 or more",514030,230353
+"Facl TBUT - Shoplifting $10,000 or more",514030,230354
+"Comp TBUT - Shoplifting $10,000 or more",514030,230355
+Theft by Unlawful Taking/Disp - Shoplifting,514030,230390
+Att Theft by Unlawful Taking/Disp - Shoplifting,514030,230391
+Solc Theft by Unlawful Taking/Disp - Shoplifting,514030,230392
+Cons Theft by Unlawful Taking/Disp - Shoplifting,514030,230393
+Facl Theft by Unlawful Taking/Disp - Shoplifting,514030,230394
+Comp Theft by Unlawful Taking/Disp - Shoplifting,514030,230395
+Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230400
+Att Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230401
+Solc Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230402
+Cons Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230403
+Facl Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230404
+Comp Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230405
+"TBUT - Parts from Vehicle $10,000 or more",514030,230450
+"Att TBUT - Parts from Vehicle $10,000 or more",514030,230451
+"Solc TBUT - Parts from Vehicle  $10,000 or more",514030,230452
+"Cons TBUT -Parts from Vehicle $10,000 or more",514030,230453
+"Facl TBUT - Parts from Vehicle $10,000 or more",514030,230454
+"Comp TBUT - Parts from Vehicle $10,000 or more",514030,230455
+Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230490
+Att Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230491
+Solc Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230492
+Cons Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230493
+Facl Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230494
+Comp Theft by Unlawful Taking/Disp - Parts from Vehicle,514030,230495
+Theft by Unlawful Taking/Disp - From Auto,514030,230500
+Att Theft by Unlawful Taking/Disp - From Auto,514030,230501
+Solc Theft by Unlawful Taking/Disp - From Auto,514030,230502
+Cons Theft by Unlawful Taking/Disp - From Auto,514030,230503
+Facl Theft by Unlawful Taking/Disp - From Auto,514030,230504
+Comp Theft by Unlawful Taking/Disp - From Auto,514030,230505
+"TBUT - From Auto $10,000 or more",514030,230550
+"Att TBUT - From Auto $10,000 or more",514030,230551
+"Solc TBUT - From Auto  $10,000 or more",514030,230552
+"Cons TBUT - From Auto $10,000 or more",514030,230553
+"Facl TBUT - From Auto $10,000 or more",514030,230554
+"Comp TBUT - From Auto $10,000 or more",514030,230555
+Theft by Unlawful Taking/Disp - From Auto,514030,230590
+Att Theft by Unlawful Taking/Disp - From Auto,514030,230591
+Solc Theft by Unlawful Taking/Disp - From Auto,514030,230592
+Cons Theft by Unlawful Taking/Disp - From Auto,514030,230593
+Facl Theft by Unlawful Taking/Disp - From Auto,514030,230594
+Comp Theft by Unlawful Taking/Disp - From Auto,514030,230595
+Theft by Unlawful Taking/Disp - Coin Machine,514030,230700
+Att Theft by Unlawful Taking/Disp - Coin Machine,514030,230701
+Solc Theft by Unlawful Taking/Disp - Coin Machine,514030,230702
+Cons Theft by Unlawful Taking/Disp - Coin Machine,514030,230703
+Facl Theft by Unlawful Taking/Disp - Coin Machine,514030,230704
+Comp Theft by Unlawful Taking/Disp - Coin Machine,514030,230705
+"TBUT - Coin Machine $10,000 or more",514030,230750
+"Att TBUT - Coin Machine $10,000 or more",514030,230751
+"Solc TBUT - Coin Machine  $10,000 or more",514030,230752
+"Cons TBUT - Coin Machine $10,000 or more",514030,230753
+"Facl TBUT - Coin Machine $10,000 or more",514030,230754
+"Comp TBUT - Coin Machine $10,000 or more",514030,230755
+Theft by Unlawful Taking/Disp - Coin Machine,514030,230790
+Att Theft by Unlawful Taking/Disp - Coin Machine,514030,230791
+Solc Theft by Unlawful Taking/Disp - Coin Machine,514030,230792
+Cons Theft by Unlawful Taking/Disp - Coin Machine,514030,230793
+Facl Theft by Unlawful Taking/Disp - Coin Machine,514030,230794
+Comp Theft by Unlawful Taking/Disp - Coin Machine,514030,230795
+Theft by Unlawful Taking/Disp - Building,514030,230800
+Att Theft by Unlawful Taking/Disp - Building,514030,230801
+Solc Theft by Unlawful Taking/Disp - Building,514030,230802
+Cons Theft by Unlawful Taking/Disp - Building,514030,230803
+Facl Theft by Unlawful Taking/Disp - Building,514030,230804
+Comp Theft by Unlawful Taking/Disp - Building,514030,230805
+"TBUT - Building $10,000 or more",514030,230850
+"Att TBUT - Building $10,000 or more",514030,230851
+"Solc TBUT - Building  $10,000 or more",514030,230852
+"Cons TBUT - Building $10,000 or more",514030,230853
+"Facl TBUT - Building $10,000 or more",514030,230854
+"Comp TBUT - Building $10,000 or more",514030,230855
+Theft by Unlawful Taking/Disp - Building,514030,230890
+Att Theft by Unlawful Taking/Disp - Building,514030,230891
+Solc Theft by Unlawful Taking/Disp - Building,514030,230892
+Cons Theft by Unlawful Taking/Disp - Building,514030,230893
+Facl Theft by Unlawful Taking/Disp - Building,514030,230894
+Comp Theft by Unlawful Taking/Disp - Building,514030,230895
+Theft by Unlawful Taking/Disp - Firearm,514030,231000
+Att Theft by Unlawful Taking/Disp - Firearm,514030,231001
+Solc Theft by Unlawful Taking/Disp - Firearm,514030,231002
+Cons Theft by Unlawful Taking/Disp - Firearm,514030,231003
+Facl Theft by Unlawful Taking/Disp - Firearm,514030,231004
+Comp Theft by Unlawful Taking/Disp - Firearm,514030,231005
+Theft by Unlawful Taking (Anhydrous Ammonia),514030,231010
+Att Theft by Unlawful Taking (Anhydrous Ammonia),514030,231011
+Solc Theft by Unlawful Taking (Anhydrous Ammonia),514030,231012
+Cons Theft by Unlawful Taking (Anhydrous Ammonia),514030,231013
+Facl Theft by Unlawful Taking (Anhydrous Ammonia),514030,231014
+Comp Theft by Unlawful Taking (Anhydrous Ammonia),514030,231015
+TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231020
+Att TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231021
+Solc TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231022
+Cons TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231023
+Facl TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231024
+Comp TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 1st offense,514030,231025
+TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or > offense,514030,231030
+Att TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or >  offense,514030,231031
+Solc TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or >  offense,514030,231032
+Cons TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or >  offense,514030,231033
+Facl TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or >  offense,514030,231034
+Comp TBUT (Anh. Amm) W/ Intent to Mfg. Meth. 2nd or > offense,514030,231035
+TBUT - Gasoline U/$500,514030,231500
+Att TBUT - Gasoline U/$500,514030,231501
+Solc TBUT -Gasoline  U/$500,514030,231502
+Cons TBUT - Gasoline U/$500,514030,231503
+Facl TBUT - Gasoline U/$500,514030,231504
+Comp TBUT - Gasoline U/$500,514030,231505
+"TBUT - Gasoline U/$10,000 ",514030,231510
+"Att TBUT - Gasoline U/$10,000 ",514030,231511
+"Solc TBUT -Gasoline  U/$10,000 ",514030,231512
+"Cons TBUT - Gasoline U/$10,000 ",514030,231513
+"Facl TBUT - Gasoline U/$10,000 ",514030,231514
+"Comp TBUT - Gasoline U/$10,000 ",514030,231515
+"TBUT - Gasoline $10,000 or more",514030,231520
+"Att TBUT - Gasoline $10,000 or more",514030,231521
+"Solc TBUT -Gasoline  $10,000 or more",514030,231522
+"Cons TBUT - Gasoline $10,000 or more",514030,231523
+"Facl TBUT - Gasoline $10,000 or more",514030,231524
+"Comp TBUT - Gasoline $10,000 or more",514030,231525
+Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232100
+Att Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232101
+Solc Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232102
+Cons Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232103
+Facl Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232104
+Comp Theft of Property Lost/Mislaid/Deliver by Mistake,514050,232105
+"Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232110
+"Att Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232111
+"Solc Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232112
+"Cons Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232113
+"Facl Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232114
+"Comp Theft of Property Lost/Mislaid/Deliver by Mistake $10,000 >",514050,232115
+Theft of Services,514060,232200
+Att Theft of Services,514060,232201
+Solc Theft of Services,514060,232202
+Cons Theft of Services,514060,232203
+Facl Theft of Services,514060,232204
+Comp Theft of Services,514060,232205
+"Theft of Services $10,000 or more",514060,232210
+"Att Theft of Services $10,000 or more",514060,232211
+"Solc Theft of Services $10,000 or more",514060,232212
+"Cons Theft of Services $10,000 or more",514060,232213
+"Facl Theft of Services $10,000 or more",514060,232214
+"Comp Theft of Services $10,000 or more",514060,232215
+Poss/Use/Transfer Device for Theft Services 2nd,514065,232250
+Att Poss/Use/Transfer Device for Theft Services 2nd,514065,232251
+Solc Poss/Use/Transfer Device for Theft Services 2nd,514065,232252
+Cons Poss/Use/Transfer Device for Theft Services 2nd,514065,232253
+Facl Poss/Use/Transfer Device for Theft Services 2nd,514065,232254
+Comp Poss/Use/Transfer Device for Theft Services 2nd,514065,232255
+Theft by Failure to Make Req Disposition of PPTY,514070,232300
+Att Theft by Failure to Make Req Disposition of PPTY,514070,232301
+Solc Theft by Failure to Make Req Disposition of PPTY,514070,232302
+Cons Theft by Failure to Make Req Disposition of PPTY,514070,232303
+Facl Theft by Failure to Make Req Disposition of PPTY,514070,232304
+Comp Theft by Failure to Make Req Disposition of PPTY,514070,232305
+"Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232310
+"Att Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232311
+"Solc Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232312
+"Cons Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232313
+"Facl Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232314
+"Comp Theft by Failure to Make Req Disposition of PPTY $10,000 >",514070,232315
+Theft by Extortion,514080,232400
+Att Theft by Extortion,514080,232401
+Solc Theft by Extortion,514080,232402
+Cons Theft by Extortion,514080,232403
+Facl Theft by Extortion,514080,232404
+Comp Theft by Extortion,514080,232405
+"Theft by Extortion $10,000 or more",514080,232410
+"Att Theft by Extortion $10,000 or more",514080,232411
+"Solc Theft by Extortion $10,000 or more",514080,232412
+"Cons Theft by Extortion $10,000 or more",514080,232413
+"Facl Theft by Extortion $10,000 or more",514080,232414
+"Comp Theft by Extortion $10,000 or more",514080,232415
+Theft of Labor,514090,232500
+Att Theft of Labor,514090,232501
+Solc Theft of Labor,514090,232502
+Cons Theft of Labor ,514090,232503
+Facl Theft of Labor,514090,232504
+Comp Theft of Labor,514090,232505
+"Theft of Labor $10,000 or more",514090,232510
+"Att Theft of Labor $10,000 or more",514090,232511
+"Solc Theft of Labor $10,000 or more",514090,232512
+"Cons Theft of Labor $10,000 or more",514090,232513
+"Facl Theft of Labor $10,000 or more",514090,232514
+"Comp Theft of Labor $10,000 or more",514090,232515
+Theft by Unlawful Taking/Disp - Bicycle,514030,232600
+Att Theft by Unlawful Taking/Disp - Bicycle,514030,232601
+Solc Theft by Unlawful Taking/Disp - Bicycle,514030,232602
+Cons Theft by Unlawful Taking/Disp - Bicycle,514030,232603
+Facl Theft by Unlawful Taking/Disp - Bicycle,514030,232604
+Comp Theft by Unlawful Taking/Disp - Bicycle,514030,232605
+Theft of Mail Matter,514040,232650
+Att Theft of Mail Matter,514040,232651
+Solc Theft of Mail Matter,514040,232652
+Cons Theft of Mail Matter,514040,232653
+Facl Theft of Mail Matter,514040,232654
+Comp Theft of Mail Matter,514040,232655
+"TBUT - Bicycle $10,000 or more",514030,232660
+"Att TBUT - Bicycle $10,000 or more",514030,232661
+"Solc TBUT -Bicycle  $10,000 or more",514030,232662
+"Cons TBUT - Bicycle $10,000 or more",514030,232663
+"Facl TBUT - Bicycle $10,000 or more",514030,232664
+"Comp TBUT - Bicycle $10,000 or more",514030,232665
+Theft by Unlawful Taking/Disp - Bicycle,514030,232690
+Att Theft by Unlawful Taking/Disp - Bicycle,514030,232691
+Solc Theft by Unlawful Taking/Disp - Bicycle,514030,232692
+Cons Theft by Unlawful Taking/Disp - Bicycle,514030,232693
+Facl Theft by Unlawful Taking/Disp - Bicycle,514030,232694
+Comp Theft by Unlawful Taking/Disp - Bicycle,514030,232695
+Theft by Unlawful Taking/Disp - Farm Equipment,514030,232700
+Att Theft by Unlawful Taking/Disp - Farm Equipment,514030,232701
+Solc Theft by Unlawful Taking/Disp - Farm Equipment,514030,232702
+Cons Theft by Unlawful Taking/Disp - Farm Equipment,514030,232703
+Facl Theft by Unlawful Taking/Disp - Farm Equipment,514030,232704
+Comp Theft by Unlawful Taking/Disp - Farm Equipment,514030,232705
+"TBUT - Farm Equipment $10,000 or more",514030,232710
+"Att TBUT - Farm Equipment $10,000 or more",514030,232711
+"Solc TBUT - Farm Equipment  $10,000 or more",514030,232712
+"Cons TBUT - Farm Equipment $10,000 or more",514030,232713
+"Facl TBUT - Farm Equipment $10,000 or more",514030,232714
+"Comp TBUT - Farm Equipment $10,000 or more",514030,232715
+Theft by Unlawful Taking/Disp - Farm Equipment,514030,232720
+Att Theft by Unlawful Taking/Disp - Farm Equipment,514030,232721
+Solc Theft by Unlawful Taking/Disp - Farm Equipment,514030,232722
+Cons Theft by Unlawful Taking/Disp - Farm Equipment,514030,232723
+Facl Theft by Unlawful Taking/Disp - Farm Equipment,514030,232724
+Comp Theft by Unlawful Taking/Disp - Farm Equipment,514030,232725
+Theft by Unlawful Taking/Disp - Livestock,514030,232800
+Att Theft by Unlawful Taking/Disp - Livestock,514030,232801
+Solc Theft by Unlawful Taking/Disp - Livestock,514030,232802
+Cons Theft by Unlawful Taking/Disp - Livestock,514030,232803
+Facl Theft by Unlawful Taking/Disp - Livestock,514030,232804
+Comp Theft by Unlawful Taking/Disp - Livestock,514030,232805
+"TBUT - Livestock $10,000 or more",514030,232850
+"Att TBUT - Livestock $10,000 or more",514030,232851
+"Solc TBUT - Livestock  $10,000 or more",514030,232852
+"Cons TBUT - Livestock $10,000 or more",514030,232853
+"Facl TBUT - Livestock $10,000 or more",514030,232854
+"Comp TBUT - Livestock $10,000 or more",514030,232855
+Theft by Unlawful Taking/Disp - Livestock,514030,232890
+Att Theft by Unlawful Taking/Disp - Livestock,514030,232891
+Solc Theft by Unlawful Taking/Disp - Livestock,514030,232892
+Cons Theft by Unlawful Taking/Disp - Livestock,514030,232893
+Facl Theft by Unlawful Taking/Disp - Livestock,514030,232894
+Comp Theft by Unlawful Taking/Disp - Livestock,514030,232895
+Theft by Unlawful Taking/Disp - All others,514030,232900
+Att Theft by Unlawful Taking/Disp - All others,514030,232901
+Solc Theft by Unlawful Taking/Disp - All others,514030,232902
+Cons Theft by Unlawful Taking/Disp - All others,514030,232903
+Facl Theft by Unlawful Taking/Disp - All others,514030,232904
+Comp Theft by Unlawful Taking/Disp - All others,514030,232905
+"TBUT - All others $10,000 or more",514030,232950
+"Att TBUT - All others $10,000 or more",514030,232951
+"Solc TBUT - All others  $10,000 or more",514030,232952
+"Cons TBUT - All others $10,000 or more",514030,232953
+"Facl TBUT - All others $10,000 or more",514030,232954
+"Comp TBUT - All others $10,000 or more",514030,232955
+Theft by Unlawful Taking/Disp - All others,514030,232990
+Att Theft by Unlawful Taking/Disp - All others,514030,232991
+Solc Theft by Unlawful Taking/Disp - All others,514030,32992
+Cons Theft by Unlawful Taking/Disp - All others,514030,232993
+Facl Theft by Unlawful Taking/Disp - All others,514030,232994
+Comp Theft by Unlawful Taking/Disp - All others,514030,232995
+Theft by Deception - Include Cold Checks U/$500,514040,2323000
+Att Theft by Deception - Include Cold Checks U/$500,514040,233001
+Solc Theft by Deception - Include Cold Checks U/$500,514040,233002
+Cons Theft by Deception - Include Cold Checks U/$500,514040,233003
+Facl Theft by Deception - Include Cold Checks U/$500,514040,233004
+Comp Theft by Deception - Include Cold Checks U/$500,514040,233005
+"Theft by Deception - Include Cold Checks U/$10,000",514040,233010
+"Att Theft by Deception - Include Cold Checks U/$10,000",514040,233011
+"Solc Theft by Deception - Include Cold Checks U/$10,000",514040,233012
+"Cons Theft by Deception - Include Cold Checks U/$10,000",514040,233013
+"Facl Theft by Deception - Include Cold Checks U/$10,000",514040,233014
+"Comp Theft by Deception - Include Cold Checks U/$10,000",514040,233015
+"Theft by Deception - Include Cold Checks $10,000 or more",514040,233020
+"Att Theft by Deception - Include Cold Checks $10,000 or more",514040,233021
+"Solc Theft by Deception - Include Cold Checks $10,000 or more",514040,233022
+"Cons Theft by Deception - Include Cold Checks $10,000 or more",514040,233023
+"Facl Theft by Deception - Include Cold Checks $10,000 or more",514040,233024
+"Comp Theft by Deception - Include Cold Checks $10,000 or more",514040,233025
+Theft of Identity of Another Without Consent ,514060,233100
+Att Theft of Identity of Another Without Consent ,514060,233101
+Solc Theft of Identity of Another Without Consent ,514060,233102
+Cons Theft of Identity of Another Without Consent ,514060,233103
+Facl Theft of Identity of Another Without Consent ,514060,233104
+Comp Theft of Identity of Another Without Consent ,514060,233105
+Theft of Retail Merchandise for Resale,506120,234300
+Att Theft of Retail Merchandise for Resale,506120,234301
+Solc Theft of Retail Merchandise for Resale,506120,234302
+Cons Theft of Retail Merchandise for Resale,506120,234303
+Facl Theft of Retail Merchandise for Resale,506120,234304
+Comp Theft of Retail Merchandise for Resale,506120,234305
+Theft by Unlawful Taking/Disp - Auto,514030,240400
+Att Theft by Unlawful Taking/Disp - Auto,514030,240401
+Solc Theft by Unlawful Taking/Disp - Auto,514030,240402
+Cons Theft by Unlawful Taking/Disp - Auto,514030,240403
+Facl Theft by Unlawful Taking/Disp - Auto,514030,240404
+Comp Theft by Unlawful Taking/Disp - Auto,514030,240405
+"TBUT - Auto $10,000 or more",514030,240450
+"Att TBUT - Auto $10,000 or more",514030,240451
+"Solc TBUT - Auto  $10,000 or more",514030,240452
+"Cons TBUT - Auto $10,000 or more",514030,240453
+"Facl TBUT - Auto $10,000 or more",514030,240454
+"Comp TBUT - Auto $10,000 or more",514030,240455
+Theft by Unlawful Taking/Disp - Auto,514030,240490
+Att Theft by Unlawful Taking/Disp - Auto,514030,240491
+Solc Theft by Unlawful Taking/Disp - Auto,514030,240492
+Cons Theft by Unlawful Taking/Disp - Auto,514030,240493
+Facl Theft by Unlawful Taking/Disp - Auto,514030,240494
+Comp Theft by Unlawful Taking/Disp - Auto,514030,240495
+Unauthorized Use of a Motor Vehicle,,
+Unauthorized Use of a Motor Vehicle - 1st offense,514100,7010
+Att Unauthorized Use of a Motor Vehicle - 1st offense,514100,7011
+Solc Unauthorized Use of a Motor Vehicle - 1st offense,514100,7012
+Cons Unauthorized Use of a Motor Vehicle - 1st offense,514100,7013
+Facl Unauthorized Use of a Motor Vehicle - 1st offense,514100,7014
+Comp Unauthorized Use of a Motor Vehicle - 1st offense,514100,7015
+Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7020
+Att Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7021
+Solc Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7022
+Cons Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7023
+Facl Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7024
+Comp Unauthorized Use of a Motor Vehicle - 2nd offense or >,514100,7025
+Wanton Endangerment,508060,
+Wanton Endangerment - 1st Degree,508060,132010
+Att Wanton Endangerment - 1st Degree,508060,132011
+Solc Wanton Endangerment - 1st Degree,508060,132012
+Cons Wanton Endangerment - 1st Degree,508060,132013
+Facl Wanton Endangerment - 1st Degree,508060,132014
+Comp Wanton Endangerment - 1st Degree,508060,132015
+"Wanton Endangerment - 1st Degree, Police Officer ",508060,132210
+"Att Wanton Endangerment - 1st Degree, Police Officer ",508060,132211
+"Solc Wanton Endangerment - 1st Degree, Police Officer ",508060,132212
+"Cons Wanton Endangerment - 1st Degree, Police Officer ",508060,132213
+"Facl Wanton Endangerment - 1st Degree, Police Officer ",508060,132214
+"Comp Wanton Endangerment - 1st Degree, Police Officer ",508060,132215
+Wanton Endangerment - 2nd Degree,508070,4410
+Att Wanton Endangerment - 2nd Degree,508070,4411
+Solc Wanton Endangerment - 2nd Degree,508070,4412
+Cons Wanton Endangerment - 2nd Degree,508070,4413
+Facl Wanton Endangerment - 2nd Degree,508070,4414
+Comp Wanton Endangerment - 2nd Degree,508070,4415
+"Wanton Endangerment - 2nd Degree, Police Officer ",508070,4440
+"Att Wanton Endangerment - 2nd Degree, Police Officer ",508070,4441
+"Solc Wanton Endangerment - 2nd Degree, Police Officer ",508070,4442
+"Cons Wanton Endangerment - 2nd Degree, Police Officer ",508070,4443
+"Facl Wanton Endangerment - 2nd Degree, Police Officer ",508070,4444
+"Comp Wanton Endangerment - 2nd Degree, Police Officer ",508070,4445

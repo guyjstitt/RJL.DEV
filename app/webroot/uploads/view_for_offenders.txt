@@ -1,0 +1,42 @@
+<div class="offenders view">
+<h2>Offenders</h2>
+<div class="table-responsive">
+	<table class="table">
+    <tr>
+		<th>Case ID</th>
+        <th>Offender ID</th>
+		<th>First Name</th>
+		<th>Last Name</th>
+		<th>Date of Birth</th>
+		<th>Gender</th>
+		<th>Street Address</th>
+		<th>Zip Code</th>
+	</tr>
+	<tr>
+		<td><?php echo $offender['Offender']['case_id']; ?></td>
+        <td><?php echo $offender['Offender']['offenderId']; ?></td>
+        <td><?php echo $offender['Offender']['firstName']; ?></td>
+        <td><?php echo $offender['Offender']['lastName']; ?></td>
+        <td><?php echo $offender['Offender']['dateOfBirth']; ?></td>
+        <td><?php echo $offender['Offender']['gender']; ?></td>
+        <td><?php echo $offender['Offender']['streetAddress']; ?></td>
+        <td><?php echo $offender['Offender']['zipCode']; ?></td>
+    </tr>
+	</table>
+</div>
+</div>
+
+<div class="navactions">
+    <h3>Actions</h3>
+    <ul>
+        <li><?php echo $this->Html->link
+('Edit Offender', array('action' => 'edit', $offender['Offender']['id'])); ?> </li>
+        <li><?php echo $this->Html->link
+('Delete Offender', array('action' => 'delete', $offender['Offender']['id']),
+null, sprintf('Are you sure you want to delete # %s?', $offender['Offender']['id'])); ?> </li>
+        <li><?php echo $this->Html->link
+('New Offender', array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link
+('List Offenders', array('action' => 'index')); ?> </li>
+    </ul>
+</div>
