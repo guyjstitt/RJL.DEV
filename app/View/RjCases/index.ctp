@@ -23,7 +23,7 @@ $(document).ready( function () {
 </head>
 
 <div class="cases index">
-    <h2>Cases</h2>
+    <h2>All Cases</h2>
 <div class="table-responsive">
 <table id="case" class="table">
 	<thead>
