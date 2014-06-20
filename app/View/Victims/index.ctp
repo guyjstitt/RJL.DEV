@@ -35,7 +35,7 @@ $(document).ready( function () {
 			<th>Case ID</th>
             <th>First Name</th>
             <th>Last Name</th>
-            <th>Date of Birth</th>
+            <th>Age</th>
 			<th>Zip Code</th>
 			<th>Primary Phone</th>
             <th class="actions">Actions</th>
@@ -48,7 +48,7 @@ $(document).ready( function () {
 		<td><?php if(!empty($victim['RjCase']['0']['caseId'])) echo $victim['RjCase']['0']['caseId']; ?> </td>
         <td><?php echo $victim['Victim']['firstName']; ?> </td>
         <td><?php echo $victim['Victim']['lastName']; ?> </td>
-        <td><?php echo $victim['Victim']['dateOfBirth']; ?> </td>
+        <td><?php echo $victim['Victim']['age']; ?> </td>
 		<td><?php echo $victim['Victim']['zipCode']; ?> </td>
 		<td><?php echo $victim['Victim']['phoneOne']; ?> </td>
         <td class="actions">

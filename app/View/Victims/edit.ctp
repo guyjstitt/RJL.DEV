@@ -37,9 +37,6 @@ jQuery.validator.addMethod("emailonly", function(value, element) {return this.op
 		required: true, 
 		lettersonly: true	
 	});
-	$( "#VictimSocialSecurityNumber" ).rules( "add", { 
-		ssnonly: true	
-	});
 	$( "#VictimStreetAddress" ).rules( "add", {
 		required: true
 	});
@@ -99,14 +96,19 @@ echo $this->Form->create('Victim',array('id'=>'evicForm')); ?>
 	</div>
 </div>
 <div class="row">
+	<div class="col-md-3">
+		<?php echo $this->Form->input('age',array('type'=>'text')); ?>
+	</div>
 	<div class="col-md-3 required">
-		<?php echo $this->Form->input('dateOfBirth',array('type'=>'text','class'=>'evictimdatepicker')); ?> 
+		<?php echo $this->Form->input('dateOfBirth',array('type'=>'text','class'=>'victimdatepicker')); ?>
+	</div>
+</div>
+<div class = "row">
+	<div class="col-md-3">
+		<?php echo $this->Form->input('gender',array('class'=>'chosen-select','options'=> $gender, 'data-placeholder'=>'Select Gender')); ?>
 	</div>
 	<div class="col-md-3">
-		<?php echo $this->Form->input('race',array('class'=>'chosen-select','options'=> $race,'data-placeholder'=>'Select Race')); ?>
-	</div>
-	<div class="col-md-3">
-		<?php echo $this->Form->input('gender',array('class'=>'chosen-select','options'=> $gender,'data-placeholder'=>'Select Gender')); ?> 
+		<?php echo $this->Form->input('race',array('class'=>'chosen-select','options'=> $race, 'data-placeholder'=>'Select Race')); ?>
 	</div>
 </div>
 <div class="row required">

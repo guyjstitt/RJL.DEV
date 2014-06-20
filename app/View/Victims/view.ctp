@@ -102,6 +102,11 @@ if(!empty($victim['RjCase']['13']['caseId'])) echo ' , ', $victim['RjCase']['13'
 </tr>
 
 <tr>
+<td class="left"><h4>Age</h4></td>
+<td class="right"><p><?php echo $victim['Victim']['age']; ?></p></td>
+</tr>
+
+<tr>
 <td class="left"><h4>Date of Birth</h4></td>
 <td class="right"><p><?php echo $victim['Victim']['dateOfBirth']; ?></p></td>
 </tr>

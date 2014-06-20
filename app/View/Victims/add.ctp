@@ -99,9 +99,14 @@ echo $this->Form->create('Victim',array('id'=>'vicForm')); ?>
 	</div>
 </div>
 <div class="row">
+	<div class="col-md-3">
+		<?php echo $this->Form->input('age',array('type'=>'text')); ?>
+	</div>
 	<div class="col-md-3 required">
 		<?php echo $this->Form->input('dateOfBirth',array('type'=>'text','class'=>'victimdatepicker')); ?>
 	</div>
+</div>
+<div class = "row">
 	<div class="col-md-3">
 		<?php echo $this->Form->input('gender',array('class'=>'chosen-select','options'=> $gender, 'data-placeholder'=>'Select Gender')); ?>
 	</div>
