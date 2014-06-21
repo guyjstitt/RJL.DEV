@@ -172,18 +172,21 @@ class VictimsController extends AppController {
 	function searchfn($searchString=null){
 		$this->layout = null;
 		$this->set('victims', $this->Victim->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Victim.firstName LIKE' => $searchString . '%'),
 					'order' => array('Victim.firstName ASC'))));
 	}
 	function searchln($searchString=null){
 		$this->layout = null;
 		$this->set('victims', $this->Victim->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Victim.lastName LIKE' => $searchString . '%'),
 					'order' => array('Victim.lastName ASC'))));
 	}
 	function searchssn($searchString=null){
 		$this->layout = null;
 		$this->set('victims', $this->Victim->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Victim.socialSecurityNumber LIKE' => $searchString . '%'),
 					'order' => array('Victim.socialSecurityNumber ASC'))));
 	}

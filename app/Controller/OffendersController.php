@@ -154,18 +154,21 @@ class OffendersController extends AppController {
 	function searchfn($searchString = null){
 		$this->layout = null;
 		$this->set('offenders', $this->Offender->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Offender.firstName LIKE' => $searchString . '%'),
 					'order' => array('Offender.firstName ASC'))));
 	}
 	function searchln($searchString = null){
 		$this->layout = null;
 		$this->set('offenders', $this->Offender->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Offender.lastName LIKE' => $searchString . '%'),
 					'order' => array('Offender.lastName ASC'))));
 	}
 	function searchssn($searchString = null){
 		$this->layout = null;
 		$this->set('offenders', $this->Offender->find('all', array(
+					'recursive' => -1,
 					'conditions' => array('Offender.socialSecurityNumber LIKE' => $searchString . '%'),
 					'order' => array('Offender.socialSecurityNumber ASC'))));
 	}
