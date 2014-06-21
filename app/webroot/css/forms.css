@@ -456,3 +456,7 @@ label.error {
 	.search { margin-top:-5px; margin-bottom: 10px; }
 	select { width: 90% !important; }
 }
+
+.hide {
+	display: none;
+}

@@ -13,7 +13,8 @@
 		{sWidth: '10%'},
 		{sWidth: '20%'},
 		{sWidth: '10%'},
-		{sWidth: '60%'}]
+		{sWidth: '50%'},
+		{sWidth: '10%'}]
 		});
 		//notes.fnDraw();
 	} );
@@ -201,6 +202,7 @@
 		<th><?php echo __('Note Date'); ?></th>
 		<th><?php echo __('Code'); ?></th>
 		<th><?php echo __('Note'); ?></th>
+		<th><?php echo __('Actions'); ?></th>
 	
 	</thead>
 	<tbody class="table">
@@ -212,6 +214,10 @@
 			<td><?php echo $notes[$i]['Note']['noteDate'];?></td>
 			<td><?php echo $notes[$i]['Code'][0]['code'];?></td>
 			<td><?php echo $notes[$i]['Note']['noteContent'];?></td>
+			<td class="actions"> 
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'Edit', 'action' => 'edit', $notes[$i]['Note']['id'],$notes[$i]['Note']['rj_case_id'])); ?>
+				| <?php echo $this->Form->postLink('Delete', array('controller' =>'Notes','action'=> 'delete', $notes[$i]['Note']['id']), array('confirm'=>'Are you sure you want to delete that note?')); ?>
+			</td>
 		</tr>
 		<?php }} ?>
 	</tbody>
@@ -269,7 +275,7 @@
 		<?php 
 		echo $this->Form->create('Contact', array('type'=>'file'));
 		echo $this->Form->input('name');
-		echo $this->Form->input('case_id',array('label'=>'Attached Case'));
+		echo $this->Form->input('case_id',array('class'=>'hide', 'label'=>false));
 		?>
 
 		<?php if (!empty($this->data['Contact']['filepath'])): ?>

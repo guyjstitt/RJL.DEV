@@ -177,7 +177,11 @@ class RjCasesController extends AppController {
 		
 		
 		$this->set('file',$this->RjCase->Contact->findByid($Caseid));
-		$this->set('notes', $this->RjCase->Note->findAllByrjCaseId($Caseid));
+		
+
+		$notes = $this->RjCase->Note->findAllByrjCaseId($Caseid);
+		//die(debug($notes));
+		$this->set('notes',$notes);
 		
 		$caseStatus =$this->RjCase->find('list', array('conditions'=>array('RjCase.id'=>$Caseid)));
 		//die(debug($caseStatus)); 

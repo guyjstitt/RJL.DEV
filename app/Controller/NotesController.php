@@ -8,7 +8,7 @@
 class NotesController extends AppController {
     var $components = array('RequestHandler');
     var $layout = 'ajax';  // uses the ajax layout
-    var $autoRender=false; // renders nothing by default
+    //var $autoRender=false; // renders nothing by default
 
 	public function beforeFilter() {
 	    parent::beforeFilter();
@@ -45,20 +45,40 @@ class NotesController extends AppController {
 			}
        		$this->set('note', $this->Note->findByid($id));
 	}
+	public function edit($noteId){
+		$this->Note->id = $noteId;
+		if(!$this->Note->exists()){
+			throw new NotFoundException(__('Invalid Note'));
+		}
+		if ($this->request->is('post') || $this->request->is('put')) {
+			if ($this->Note->save($this->request->data)) {
+				$this->Session->setFlash(__('The Note has been saved'));
+				$this->redirect(array('action' => 'index'));
+			} else {
+				$this->Session->setFlash(__('The Note could not be saved. Please, try again.'));
+			}
+		} else {
+			$this->request->data = $this->Note->read(null, $noteId);
+		}
+	}
 
     public function delete($id = null) {
         $this->request->onlyAllow('post');
 
-        $this->User->id = $id;
-        if (!$this->User->exists()) {
-            throw new NotFoundException(__('Invalid user'));
+        $this->Note->id = $id;
+     
+        $var = $this->Note->findByid($id);
+       // die(debug($var));
+        $this->set('var',$var);
+        if (!$this->Note->exists()) {
+            throw new NotFoundException(__('Invalid note'));
         }
-        if ($this->User->delete()) {
-            $this->Session->setFlash(__('User deleted'));
-            return $this->redirect(array('action' => 'index'));
+        if ($this->Note->delete()) {
+            $this->Session->setFlash(__('Note deleted'));
+            return $this->redirect(array('controller'=>'rjcases','action' => 'view',$var['Note']['rj_case_id']));
         }
-        $this->Session->setFlash(__('User was not deleted'));
-        return $this->redirect(array('action' => 'index'));
+        $this->Session->setFlash(__('Note was not deleted'));
+        return $this->redirect(array('controller'=>'rjcases','action' => 'view',$var['Note']['rj_case_id']));
     }
 
 	public function add2() {
