@@ -422,9 +422,14 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-md-4 required">
+			<div class="col-md-4">
+				<?php echo $this->Form->input('unused.age',array('type'=>'text','class'=>'age','label'=>'Age')); ?>
+			</div>
+			<div class="col-md-4">
 				<?php echo $this->Form->input('unused.dateOfBirth',array('type'=>'text','class'=>'victimdatepicker')); ?>
 			</div>
+		</div>
+		<div class="row">
 			<div class="col-md-4">
 				<?php echo $this->Form->input('unused.race',array('data-placeholder' => 'Select Race','class'=>'r','label'=>'Race','type'=>'select','options'=>$race)); ?>
 			</div>

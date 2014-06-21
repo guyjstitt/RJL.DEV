@@ -29,6 +29,7 @@ $(document).ready( function () {
             <th>Victim ID</th>
             <th>First Name</th>
             <th>Last Name</th>
+            <th>Age</th>
             <th>Date of Birth</th>
 			<th>Gender</th>
 			<th>Race</th>
@@ -43,6 +44,7 @@ $(document).ready( function () {
         <td><?php echo $victims[$i]['Victim']['victimId']; ?> </td>
         <td><?php echo $victims[$i]['Victim']['firstName']; ?> </td>
         <td><?php echo $victims[$i]['Victim']['lastName']; ?> </td>
+        <td><?php echo $victims[$i]['Victim']['age']; ?> </td>
         <td><?php echo $victims[$i]['Victim']['dateOfBirth']; ?> </td>
 		<td><?php echo $victims[$i]['Victim']['gender']; ?> </td>
 		<td><?php echo $victims[$i]['Victim']['race']; ?> </td>

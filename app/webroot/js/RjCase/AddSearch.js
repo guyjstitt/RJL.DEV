@@ -75,6 +75,7 @@
 		$('#victimFirstName'+curSearchVictim).val(obj.Victim.firstName);
 		$('#victimLastName'+curSearchVictim).val(obj.Victim.lastName);
 		$('#victimSocialSecurityNumber'+curSearchVictim).val(obj.Victim.ssn);
+		$('#victimAge'+curSearchVictim).val(obj.Victim.age);
 		$('#victimDateOfBirth'+curSearchVictim).val(obj.Victim.dateOfBirth);
 		$('#victimGender'+curSearchVictim).val(obj.Victim.gender).trigger('chosen:updated');;
 		$('#victimRace'+curSearchVictim).val(obj.Victim.race).trigger('chosen:updated');;

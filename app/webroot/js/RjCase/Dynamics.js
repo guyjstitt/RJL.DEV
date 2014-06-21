@@ -11,6 +11,7 @@
 		$("#victim"+lastRow+" input.vFN").attr('name','data[Victim]['+lastRow+'][firstName]').attr('id','victimFirstName'+lastRow).addClass('required');
 		$("#victim"+lastRow+" input.vLN").attr('name','data[Victim]['+lastRow+'][lastName]').attr('id','victimLastName'+lastRow).addClass('required');
 		$("#victim"+lastRow+" input.vSSN").attr('name','data[Victim]['+lastRow+'][socialSecurityNumber]').attr('id','victimSSN'+lastRow);
+		$("#victim"+lastRow+" input.age").attr('name','data[Victim]['+lastRow+'][age]').attr('id','victimAge'+lastRow);
 		$("#victim"+lastRow+" input.victimdatepicker").attr('name','data[Victim]['+lastRow+'][dateOfBirth]').attr('id','victimDateOfBirth'+lastRow);
 		$("#victim"+lastRow+" select.r").attr('name','data[Victim]['+lastRow+'][race]').attr('id','victimRace'+lastRow);
 		$("#victim"+lastRow+" select.g").attr('name','data[Victim]['+lastRow+'][gender]').attr('id','victimGender'+lastRow);
