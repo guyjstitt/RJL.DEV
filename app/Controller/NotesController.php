@@ -75,10 +75,10 @@ class NotesController extends AppController {
         }
         if ($this->Note->delete()) {
             $this->Session->setFlash(__('Note deleted'));
-            return $this->redirect(array('controller'=>'rjcases','action' => 'view',$var['Note']['rj_case_id']));
+            return $this->redirect(array('controller'=>'RjCases','action' => 'view',$var['Note']['rj_case_id']));
         }
         $this->Session->setFlash(__('Note was not deleted'));
-        return $this->redirect(array('controller'=>'rjcases','action' => 'view',$var['Note']['rj_case_id']));
+        return $this->redirect(array('controller'=>'RjCases','action' => 'view',$var['Note']['rj_case_id']));
     }
 
 	public function add2() {
