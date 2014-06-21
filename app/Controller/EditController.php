@@ -22,7 +22,7 @@ class EditController extends AppController {
 		if ($this->request->is('post') || $this->request->is('put')) {
 			if ($this->Note->save($this->request->data)) {
 				$this->Session->setFlash(__('The Note has been saved'));
-				$this->redirect(array('controller' =>'Rjcases','action' => 'view', $caseId));
+				$this->redirect(array('controller' =>'RjCases','action' => 'view', $caseId));
 			} else {
 				$this->Session->setFlash(__('The Note could not be saved. Please, try again.'));
 			}
