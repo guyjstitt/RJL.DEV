@@ -104,10 +104,10 @@ class DonorsController extends AppController {
             $this->set('donors', $donors);
 			
 			$Identified = $this->Donor->find('count', array(
-			'conditions' => array('Donor.donorType' => 'Identified')));
+			'conditions' => array('Donor.donorType !=' => 'Anonymous')));
 			
 			$Anonymous = $this->Donor->find('count', array(
-			'conditions' => array('Donor.donorType' => 'Anonymous')));
+			'conditions' => array('Donor.donorType' => 'Private Donation')));
 			
 			
 			$this->Donor->virtualFields['total']= 'SUM(Donor.donorAmount)';

@@ -45,6 +45,9 @@ echo $this->Form->create('Donor',array('id'=>'donorForm')); ?>
 
 <div class="row required">
 	<div class="col-md-3">
+		<?php echo $this->Form->input('dateOfDonation',array('class'=>'required donordatepicker','type'=>'text')); ?> 
+	</div>
+	<div class="col-md-3">
 		<?php echo $this->Form->input('donorType',array('class'=>'required')); ?> 
 	</div>
 	<div class="col-md-3">

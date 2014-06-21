@@ -38,11 +38,10 @@ $(document).ready( function () {
 	<table class="table" id="donor">
     <thead>
 		<tr>
-            <th>Donor ID</th>
-            <th>Email Address</th>
             <th>First Name</th>
             <th>Last Name</th>
             <th>Organization Name</th>
+            <th>Date of Donation</th>
 			<th>Donor Amount </th>
 			<th>Donor Type </th>
 			<th>Actions</th>
@@ -51,11 +50,10 @@ $(document).ready( function () {
 	<tbody>
     <?php foreach ($donors as $donor): ?>
     <tr>
-        <td><?php echo $donor['Donor']['id']; ?> </td>
-        <td><?php echo $donor['Donor']['emailAddress']; ?> </td>
         <td><?php echo $donor['Donor']['firstName']; ?> </td>
         <td><?php echo $donor['Donor']['lastName']; ?> </td>
         <td><?php echo $donor['Donor']['organizationName']; ?> </td>
+        <td><?php echo $donor['Donor']['dateOfDonation']; ?> </td>
 		<td><?php echo $donor['Donor']['donorAmount']; ?> </td>
 		<td><?php echo $donor['Donor']['donorType']; ?> </td>
 		<td class="actions">
