@@ -50,7 +50,7 @@ $(document).ready(function(){
 <div class="container">
 <div id="content" class="row-fluid">
 	<div class="span12 text-center">
-	<img src="http://www.rjlou.org/rjl/app/webroot/css/logo.png">
+	<img src="/rjl/app/webroot/css/logo.png">
 	</div>
 </div>
 
@@ -59,7 +59,7 @@ $(document).ready(function(){
 	<ul class="nav nav-tabs">
 	
 		<li id="dash" <?php if($this->params['controller'] == 'home'){echo 'class="active"';}?>><a href="/rjl/home">Dashboard</a></li>
-		<?php if ($cur_user['role']!=='facilitator' && $cur_user['role']!=='casemanager'): ?>
+		<?php if ($cur_user['role']!=='facilitator'): ?>
 		<li <?php if($this->params['controller'] == 'RjCases'){echo 'class="active"';}?> class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" >
 		  Cases <b class="caret greycaret"></b>
@@ -71,7 +71,7 @@ $(document).ready(function(){
 		</ul>
 	  </li>
 	 <?php endif?>
-		<?php if ($cur_user['role']!=='facilitator' && $cur_user['role']!=='casemanager'): ?>
+		<?php if ($cur_user['role']!=='facilitator'): ?>
 	  <li <?php if($this->params['controller'] == 'Victims'){echo 'class="active"';}?> class="dropdown" id="vic">
 		<a class="dropdown-toggle" data-toggle="dropdown" >
 		  Victims <b class="caret greycaret"></b>
@@ -90,6 +90,8 @@ $(document).ready(function(){
 			<li><a href="/rjl/Offenders/add">Add Offender</a></li>
 		</ul>
 	  </li>
+
+	  <?php if ($cur_user['role']!=='casemanager'): ?>
 	  <li <?php if($this->params['controller'] == 'Volunteers'){echo 'class="active"';}?> class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" >
 		  Volunteers <b class="caret greycaret"></b>
@@ -99,6 +101,7 @@ $(document).ready(function(){
 			<li><a href="/rjl/Volunteers/add">Add Volunteer</a></li>
 		</ul>
 	  </li>
+	<?php endif ?>
 	  <?php endif ?>
 		<?php if(isset($cur_user) && $cur_user['role']=='admin')
 		{ 

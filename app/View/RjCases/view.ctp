@@ -203,7 +203,6 @@
 		<th><?php echo __('Code'); ?></th>
 		<th><?php echo __('Note'); ?></th>
 		<th><?php echo __('Actions'); ?></th>
-	
 	</thead>
 	<tbody class="table">
 	<?php

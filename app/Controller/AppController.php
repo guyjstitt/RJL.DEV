@@ -51,9 +51,9 @@ class AppController extends Controller {
 			//list of approved controllers and actions.  Start the list with ||
 			$approvedFacilitator = "||homeindex|RjCasesView|Facilitatorsindex|Notes|facilitatorsdownload|userslogout|userslogin|OffendersView|VictimsView|Contactdownload|";
 			//Case Managers & Admins have access to facilitator areas plus the ones below
-			$approvedCaseMgr = "||RjCasesedit|RjCasesindex|Contactdownload|";
+			$approvedCaseMgr = "||RjCasesIndex|RjCasesAdd|RjCasesedit|Victimsindex|Victimsadd|Victimsedit|Offendersedit|Offendersindex|Offendersadd|Offendersview|Contactdownload|";
 			//Case Managers have access to the same as facilitators, case mgrs, and the ones below
-			$approvedCaseAdmin = "||RjCasesAdd|RjCasesedit|Victimsindex|Victimsadd|Offendersindex|Offendersadd|Contactdownload|";
+			$approvedCaseAdmin = "||RjCasesIndex|RjCasesAdd|RjCasesedit|RjCasesview|Victimsindex|Victimsadd|Victimsedit|Victimsview|Offendersindex|Offendersadd|OffendersView|Volunteersindex|Volunteersadd|Volunteersedit|Volunteersview|Contactdownload|";
 			if($user['role'] != 'admin' && (stripos($approvedFacilitator,$search)==false))
 			{
 				if(($user['role'] != 'caseadmin' || $user['role'] != 'casemanager' ) && (!stripos($approvedCaseMgr,$search)==false))
