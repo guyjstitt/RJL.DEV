@@ -492,8 +492,11 @@ class RjCasesController extends AppController {
 		//if case manager check if this is your case.  If not then exit
 		$user = $this->Auth->user();
 		//die(debug($user['role']));
-		if($user['role'] != 'admin')
+
+		
+		/*if($user['role'] != 'admin' || $user['role'] != 'caseadmin')
 		{
+			var_dump($user['role']);
 			//see if this is the case managers account
 			if($user['id'] != $this->request->data['RjCase']['user_id'])
 			{
@@ -504,6 +507,8 @@ class RjCasesController extends AppController {
 			    );
 			}
 		}
+		*/
+		
 
 		
 		$charges = $this->RjCase->Charge->find('list', array(

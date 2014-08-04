@@ -40,7 +40,7 @@ $(document).ready( function () {
  <?php
 
  foreach ($items as $case): ?>
- <?php if ($cur_user['role']=='admin'||$cur_user['id']==$case['RjCase']['user_id']||$cur_user['id']==$case['RjCase']['facilitator']): ?>
+ <?php if ($cur_user['role']=='admin'||$cur_user['role']=='caseadmin'||$cur_user['id']==$case['RjCase']['user_id']||$cur_user['id']==$case['RjCase']['facilitator']): ?>
 	<tr>
 		<td><?php echo $case['RjCase']['caseId']; ?></td>
 		<td><?php echo $case['RjCase']['caseStatus']; ?></td>
