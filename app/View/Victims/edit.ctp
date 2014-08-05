@@ -57,10 +57,6 @@ jQuery.validator.addMethod("emailonly", function(value, element) {return this.op
 	$( "#VictimPhoneOneType" ).rules( "add", {
 		required: true
 	});
-	$( "#VictimDateOfBirth" ).rules( "add", {
-		required: true,
-		date: true
-	});
 }); 
 </script>
 
