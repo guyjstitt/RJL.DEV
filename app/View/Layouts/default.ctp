@@ -24,11 +24,6 @@
 		
 	?>
 
-
-
-
-
-
 <script>  
 $(document).ready(function(){
   $(".messageHead").click(function(){
@@ -59,7 +54,7 @@ $(document).ready(function(){
 	<ul class="nav nav-tabs">
 	
 		<li id="dash" <?php if($this->params['controller'] == 'home'){echo 'class="active"';}?>><a href="/rjl/home">Dashboard</a></li>
-		<?php if ($cur_user['role']!=='facilitator'): ?>
+		<?php if ($cur_user['role']!=='facilitator'&&$cur_user['role']!=='casemanager'): ?>
 		<li <?php if($this->params['controller'] == 'RjCases'){echo 'class="active"';}?> class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" >
 		  Cases <b class="caret greycaret"></b>
