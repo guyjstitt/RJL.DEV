@@ -460,3 +460,54 @@ label.error {
 .hide {
 	display: none;
 }
+
+.toolbar {
+	display: block;
+	position: fixed;
+	background-color: #00c453;
+	bottom: 15%;
+	left: 50%;
+	margin-left: 600px;
+	width: 190px;
+	border-radius: 10px;
+	box-shadow: 0 0 12px #6E6E6E;
+}
+
+.shortcuts{
+	margin: 0 auto;
+	max-width: 170px;
+}
+
+.toolbar-wrap span a{
+	color: black;
+	margin: 3px 0 3px 0;
+	list-style: none;
+	font-weight: 700;
+	padding: 20px 11px;
+	font-size: 14px;
+	background-color: #D8D8D8;
+	border: 3px outset;
+	border-radius: 10px;
+	color: white;
+	text-transform: uppercase;
+	text-shadow: 0 1px #848484;
+	display: inline-block;
+	cursor: pointer;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.toolbar-wrap span a:hover{
+	border: 3px inset;
+}
+.toolbar-wrap{
+	width: 180px;
+	margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+  .toolbar {
+    display: none;
+  }
+}

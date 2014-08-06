@@ -24,6 +24,11 @@
 		
 	?>
 
+
+
+
+
+
 <script>  
 $(document).ready(function(){
   $(".messageHead").click(function(){
@@ -40,8 +45,6 @@ $(document).ready(function(){
 </head>
 
 <body>
-
-
 <div class="container">
 <div id="content" class="row-fluid">
 	<div class="span12 text-center">
@@ -54,7 +57,7 @@ $(document).ready(function(){
 	<ul class="nav nav-tabs">
 	
 		<li id="dash" <?php if($this->params['controller'] == 'home'){echo 'class="active"';}?>><a href="/rjl/home">Dashboard</a></li>
-		<?php if ($cur_user['role']!=='facilitator'&&$cur_user['role']!=='casemanager'): ?>
+		<?php if ($cur_user['role']!=='facilitator'): ?>
 		<li <?php if($this->params['controller'] == 'RjCases'){echo 'class="active"';}?> class="dropdown">
 		<a class="dropdown-toggle" data-toggle="dropdown" >
 		  Cases <b class="caret greycaret"></b>
@@ -245,6 +248,22 @@ echo $message['Message']['announcement'];
 </div>
 
 </div>
-
+<?php if ($cur_user['role']!=='facilitator'): ?>
+<div class="col-2 toolbar">
+	<div class="toolbar-wrap">
+		<div class="shortcuts">
+			<span><a href="/rjl/RjCases/Index/">View Cases</a></span>
+			<span><a href="/rjl/Victims/Index/">View Victims</a></span>
+			<span><a href="/rjl/Offenders/Index/">View Offenders</a></span>
+			<?php if ($cur_user['role']!=='casemanager'): ?>
+				<span><a href="/rjl/Volunteers/Index/">View Volunteers</a></span>
+				<?php if ($cur_user['role']!=='caseadmin'): ?>
+				<span><a href="/rjl/Users/Index/">View Users</a></span>
+				<?php endif ?>
+			<?php endif ?>
+		</div>
+	</div>
+</div>
+<?php endif ?>
 </body>
 </html>

@@ -11,6 +11,10 @@
 	display: none;
 }
 
+.toolbar{
+	display: none;
+}
+
 #buffer {
 	height: 50px;
 }
