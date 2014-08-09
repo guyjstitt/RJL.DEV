@@ -469,14 +469,9 @@ class RjCasesController extends AppController {
 			$reason=$this->request->data['RjCase']['caseClose'];
 			$this->set('closed', $closed);
 			$this->set('reason', $reason);
-			if(($closed=='Closed - Unsuccessful'||$closed == 'Closed - Successful')&&$reason=='1')
+			if(($closed=='Closed')&&$reason=='1')
 				{
 				$this->Session->setFlash(__('Select a Case Close Reason'));
-				}
-			elseif($closed=='Closed - Successful'&&$reason!=='2')
-				{
-				$reason = '2';
-				$this->redirect(array('controller'=>'RjCases','action' => 'view', $id));
 				}
 			elseif($this->RjCase->save($this->request->data)) {
 				$this->Session->setFlash(__('The case has been saved'));
