@@ -46,6 +46,7 @@ $(document).ready(function(){
 
 <body>
 <div class="container">
+	<div class= "shadow">
 <div id="content" class="row-fluid">
 	<div class="span12 text-center">
 	<img src="/rjl/app/webroot/css/logo.png">
@@ -246,7 +247,7 @@ echo $message['Message']['announcement'];
 		</div>
 	</div>
 </div>
-
+</div>
 </div>
 <?php if ($cur_user['role']!=='facilitator'): ?>
 <div class="col-2 toolbar">

@@ -110,7 +110,7 @@ $(document).ready( function () {
 <?php echo $this->Html->script('highcharts');?>
 <script src="http://code.highcharts.com/modules/exporting.js"></script>
 
-<div class="row">
+<div class="row chart-spacing">
     <div class="col-xs-6" id="barchart"></div>
     <div class="col-xs-6"id="pieChart"></div>
 </div>
