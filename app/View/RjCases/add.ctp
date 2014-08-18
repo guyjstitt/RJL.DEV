@@ -252,7 +252,7 @@
 			<?php	echo $this->Form->input('caseId',array('label'=>'Case ID','id'=>'caseID','class'=>'required')); ?>
 	</div>
 	<div class="col-md-3">
-			<?php	echo $this->Form->input('caseStatus',array('data-placeholder' => 'Select Status','type'=>'select','class'=>'chosen-select required','options'=>array(''=>'','Open'=>array('Open - Pending'=>'Open - Pending', 'Open - Monitoring'=>'Open - Monitoring'),'Closed' =>array('Closed - Successful'=>'Closed - Successful', 'Closed - Unsuccessful'=>'Closed - Unsuccessful')))); ?>
+			<?php	echo $this->Form->input('caseStatus',array('data-placeholder' => 'Select Status','type'=>'select','class'=>'chosen-select required','options'=>array(''=>'','Open Status'=>array('Open - Pending'=>'Open - Pending', 'Open - Monitoring'=>'Open - Monitoring'),'Closed Status' =>array('C'=>'Closed')))); ?>
 	</div>
 	</div>
 	<div class="row required">
