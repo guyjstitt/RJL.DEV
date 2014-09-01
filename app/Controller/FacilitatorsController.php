@@ -80,4 +80,18 @@ class FacilitatorsController extends AppController {
         ));
       
     }
+
+    public function delete($id = null) {
+        if (!$id) {
+        $this->Session->setFlash('Invalid id for document event');
+        $this->redirect(array('action' => 'index'));
+        }
+        if ($this->Facilitator->delete($id)) {
+        $this->Session->setFlash('Document deleted');
+        } else {
+        $this->Session->setFlash(__('Document was not deleted',
+        true));
+        }
+        $this->redirect(array('action' => 'index'));
+    }
 }

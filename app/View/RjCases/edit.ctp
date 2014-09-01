@@ -43,7 +43,7 @@ echo $this->Form->create('RjCase',array('id'=>'casForm'));
 		<?php echo $this->Form->input('caseId',array('label'=>'Case ID','class'=>'required')); ?>
 	</div>
 	<div class="col-md-3">
-		<?php	echo $this->Form->input('caseStatus',array('data-placeholder' => 'Select Status','type'=>'select','class'=>'chosen-select required','options'=>array(''=>'','Open Status'=>array('Open - Pending'=>'Open - Pending', 'Open - Monitoring'=>'Open - Monitoring'),'Closed Status' =>array('C'=>'Closed')))); ?>
+		<?php	echo $this->Form->input('caseStatus',array('data-placeholder' => 'Select Status','type'=>'select','class'=>'chosen-select required','options'=>array(''=>'','Open Status'=>array('Open - Pending'=>'Open - Pending', 'Open - Monitoring'=>'Open - Monitoring'),'Closed Status' =>array('Closed'=>'Closed')))); ?>
 	</div>
 	<div class="col-md-3">
 		<?php echo $this->Form->input('caseClose',array('class'=>'chosen-select required','options'=>$closeReasons,'label'=>'Case Close Reason')); ?>

@@ -33,9 +33,12 @@ $(document).ready( function () {
         <td><?php echo $facilitator['Facilitator']['name']; ?></td>
 		  <td><?php echo $facilitator['Facilitator']['created']; ?></td>
 		  <td><?php echo $facilitator['Facilitator']['modified']; ?></td>
-		   <td class="actions">
-             <?php echo $this->Html->link(__('Download'), array('controller' => 'facilitators', 'action' => 'download', $facilitator['Facilitator']['id'])); ?>
-
+		   <td class="actions center">
+             <?php echo $this->Html->link(__('Download'), array('controller' => 'facilitators', 'action' => 'download', $facilitator['Facilitator']['id'])); ?> 
+            <?php if ($cur_user['role']=='admin' || $cur_user['role']=='admin'): 
+              echo "| ";
+              echo $this->Form->postLink('Delete', array('action' => 'delete', $facilitator['Facilitator']['id']), array('confirm'=>'Are you sure you want to delete this document?')); ?>
+         	<?php endif ?>
     </tr>
 	<?php endforeach; ?>
 	</tbody>
