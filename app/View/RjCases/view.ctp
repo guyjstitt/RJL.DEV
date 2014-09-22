@@ -233,7 +233,7 @@
 			<td><button id="addNote" type="button">Add Note</button></td>
 			<td><input id="noteDate" type="text" name="noteDate"></td>
 			<td><?php echo $this->Form->input('code', array('empty' => true,'label'=> false));?></td>
-			<td><textarea id="noteContent" rows="2" cols="25" name="noteContent"></textarea></td>
+			<td><?php echo $this->Form->input('noteContent',array('type'=>'textarea','rows' => '3', 'cols' => '25')); ?></td>
 		</tr>
 	</table>
 </div>
@@ -325,7 +325,10 @@
 <script type="text/javascript">
 	$("#addNote").click(function()
 			{
-			urlstring = $('#noteDate').val() + '/' + $('#ID').val() + '/' + $('#code').val() + '/' + $('#noteContent').val();
+			var noteContentEscape = $('#noteContent').val();
+			noteContentEscape = noteContentEscape.replace(/\//g, "-");
+
+			urlstring = $('#noteDate').val() + '/' + $('#ID').val() + '/' + $('#code').val() + '/' + noteContentEscape;
 			 $.ajax({                    
 				 url:'/rjl/Notes/add/' +urlstring,
 				 type:"POST",
