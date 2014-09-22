@@ -233,7 +233,7 @@
 			<td><button id="addNote" type="button">Add Note</button></td>
 			<td><input id="noteDate" type="text" name="noteDate"></td>
 			<td><?php echo $this->Form->input('code', array('empty' => true,'label'=> false));?></td>
-			<td><?php echo $this->Form->input('noteContent',array('type'=>'textarea','rows' => '3', 'cols' => '25')); ?></td>
+			<td><textarea id="noteContent" rows="2" cols="25" name="noteContent"></textarea></td>
 		</tr>
 	</table>
 </div>
