@@ -158,7 +158,7 @@ $(document).ready( function () {
             },
             xAxis: {
                 categories: [
-                    'Open - Pending','Open - Monitoring', 'Closed - Successful','Closed - Unsuccessful'
+                    'Open - Pending','Open-Monitoring','Closed'
                 ]
             },
             yAxis: {
@@ -190,8 +190,7 @@ $(document).ready( function () {
             data: [
                 ['Open - Pending', <?php echo $openPending?>],
 				 ['Open - Monitoring', <?php echo $openMonitoring?>],
-				['Closed - Successful', <?php echo $closedSuccessful?>],
-				['Closed - Unsuccessful', <?php echo $closedUnsuccessful?>]
+				['Closed', <?php echo $casesClosed ?>]
           
             ],
 			  showInLegend: true

@@ -39,6 +39,7 @@ class HomeController extends AppController {
 		$openMonitoring=$this->RjCase->find('count', array('conditions'=>array('RjCase.caseStatus'=>'Open - Monitoring')));
 		$closedSuccessful=$this->RjCase->find('count', array('conditions'=>array('RjCase.caseStatus'=>'Closed - Successful')));
 		$closedUnsuccessful=$this->RjCase->find('count', array('conditions'=>array('RjCase.caseStatus'=>'Closed - Unsuccessful')));
+		$casesClosed = $this->RjCase->find('count', array('conditions'=>array('RjCase.caseStatus' => 'Closed')));
 		$zip1=$this->Victim->find('count', array('conditions'=>array('Victim.zipCode'=>'40214')));
 		$zip2=$this->Victim->find('count', array('conditions'=>array('Victim.zipCode'=>'40109')));
 		$zip3=$this->Victim->find('count', array('conditions'=>array('Victim.zipCode'=>'40165')));
@@ -162,6 +163,7 @@ class HomeController extends AppController {
 		'openMonitoring'=>$openMonitoring,
 		'closedSuccessful'=>$closedSuccessful,
 		'closedUnsuccessful'=>$closedUnsuccessful,
+		'casesClosed'=>$casesClosed,
 		'activeTab'=>'Dashboard');
 		$this->set($info);
 		$this->set('message', $this->Message->findByid());
