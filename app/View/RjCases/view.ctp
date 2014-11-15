@@ -329,8 +329,10 @@
 			noteContentEscape = noteContentEscape.replace(/\//g, "-");
 
 			urlstring = $('#noteDate').val() + '/' + $('#ID').val() + '/' + $('#code').val() + '/' + noteContentEscape;
+			escapedString = escape(urlstring);
+			console.log(escapedString);
 			 $.ajax({                    
-				 url:'/rjl/Notes/add/' +urlstring,
+				 url:'/rjl/Notes/add/' + escapedString,
 				 type:"POST",
 				 success: function(data) {
 					var newData = JSON.parse(data);
