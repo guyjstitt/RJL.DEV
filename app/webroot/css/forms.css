@@ -466,7 +466,7 @@ label.error {
 }
 
 .toolbar {
-	display: block;
+	display: none;
 	position: fixed;
 	background-color: #00c453;
 	bottom: 15%;
@@ -531,4 +531,13 @@ label.error {
 
 .chart-spacing{
 	margin-top: 20px;
+}
+
+/*Datatable Gradient*/
+.dataTables_wrapper .ui-toolbar{
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#292929), to(#2E2E2E), color-stop(.4,#3B3B3B),color-stop(.6,#4A4A4A));
+}
+
+.ui-state-default {
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#666666), to(#636363), color-stop(.4,#616161),color-stop(.6,#737373)) !important;
 }

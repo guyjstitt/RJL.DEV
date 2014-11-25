@@ -28,9 +28,6 @@ $(document).ready( function () {
 
 </head>
 
-
-
-
 <div class="events index">
     <h2>Events</h2>
 	<div class="table-responsive">

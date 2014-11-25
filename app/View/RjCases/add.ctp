@@ -8,7 +8,7 @@
 }
 </style>
 
-
+<script src="/rjl/app/webroot/js/RjCase/LocalStorage.js"></script>
 <script src="/rjl/app/webroot/js/RjCase/AddSearch.js"></script>
 <script src="/rjl/app/webroot/js/RjCase/Dynamics.js"></script>
 <script src="/rjl/app/webroot/js/RjCase/Validation.js"></script>
@@ -294,7 +294,7 @@
 	
 	<?php $relation = array('' => '', 'Parent' => 'Parent', 'Family Member'=> 'Family Member', 'Foster Parent' =>'Foster Parent', 'Other' =>'Other'); ?>
 	
-	<h3>Offenders</h3>
+	<h3>Offenders</h3><span id="totalOffenders" data-counter =0></span>
 	<div class="table-responsive">
 	<table class="table" id="offendersTable">
 	<tr>
