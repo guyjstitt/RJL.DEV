@@ -261,14 +261,14 @@ class RjCasesController extends AppController {
 	$this->loadModel('User');
 	$this->loadModel('Charge');
 	$errors = $this->request->data;
-	if($this->request->is('post')) {
+	/*if($this->request->is('post')) {
 		//$format = $this->RjCase->formatSelectData($this->request->data['Charge']['Charge'],'id');
 		//$this->request->data['Charge'] = $format;
 		
 		//$format2 = $this->RjCase->formatSelectData($this->request->data['User']['User'],'id');
 		//$this->request->data['User'] = $format2;
 		//$data = array();	
-		/*if($this->RjCase->saveAll($this->request->data)) {
+		if($this->RjCase->saveAll($this->request->data)) {
 			$data['success']=true;
 			$case_id=$this->RjCase->getInsertId();
 			$this->Session->setFlash('The case has been added');
@@ -284,9 +284,9 @@ class RjCasesController extends AppController {
 			$this->render('/RjCases/json/index');
 			$this->Session->setFlash('The case could not be saved. Please, try again.');
 		}
-		$this->set('data',json_encode($data));*/
-		ajaxSave();
-	}
+		$this->set('data',json_encode($data));
+		//ajaxSave();
+	}*/
 		$users = $this->RjCase->User->find('list', array(
         'fields' => array('User.userName')));
 		$this->set('users', $users);
