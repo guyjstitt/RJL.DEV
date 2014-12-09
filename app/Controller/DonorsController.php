@@ -117,15 +117,10 @@ class DonorsController extends AppController {
 		if ($this->request->is('post')) {
 			
 			$file = new File(WWW_ROOT ."/uploads/donors.csv");
-			if($file->delete()){
-				echo "file deleted successfully";
-			}else{
-				echo "file failed to be delete";
-			}
+			
 				
 			// create
-			$this->Contact->create();
-				
+			$this->Contact->create();	
 			$this->Contact->id = 28;
 			$this->Contact->validate = $this->Contact->validateDonors;
 
