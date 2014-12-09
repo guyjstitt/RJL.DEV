@@ -91,20 +91,10 @@ class Donor extends AppModel {
          
         // close the file
         fclose($handle);
-       $file = new File(WWW_ROOT ."/uploads/donors.csv");
-	  if($file->delete()){
-   echo "file deleted successfully";
-}else{
-   echo "file failed to be delete";
 }
 		// $filename->delete();
         // return the messages
         return $return;
-        
-	}
-	else
- {echo "stop drop shut em down open up shop";
- }
 		
     }
  
