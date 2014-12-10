@@ -323,23 +323,22 @@
 <?php endif ?>
 
 <script type="text/javascript">
-	$("#addNote").click(function()
-			{
-			var noteContentEscape = $('#noteContent').val();
-			noteContentEscape = noteContentEscape.replace(/\//g, "-");
+	$("#addNote").click(function() {
+		var noteContent = $('#noteContent').val();
+			noteDate = $('#noteDate').val();
+			caseId =  $('#ID').val();
+			code = $('#code').val();
 
-			urlstring = $('#noteDate').val() + '/' + $('#ID').val() + '/' + $('#code').val() + '/' + noteContentEscape;
-			escapedString = escape(urlstring);
-			console.log(escapedString);
-			 $.ajax({                    
-				 url:'/rjl/Notes/add/' + escapedString,
-				 type:"POST",
-				 success: function(data) {
-					var newData = JSON.parse(data);
-					refreshPage();
-				}
+		$.ajax({                    
+			 url:'/rjl/Notes/add/',
+			 type:"POST",
+			 data: {Note: {noteDate: noteDate, noteContent: noteContent, rj_case_id: caseId}, Code: {1: {id: code}}},
+			 dataType: 'json'
+			 
+			}).done(function(data){
+				refreshPage();
 			});
-			}
+		}
 	);
 		 
 	  $("#noteDate").datepicker({
@@ -354,10 +353,7 @@
 	}
 
 	function refreshPage () {
-		var page_y = document.getElementsByTagName("body")[0].scrollTop;
-		window.location.href = window.location.href.split('?')[0] + '?page_y=' + page_y;
-		//document.location.reload(true);
-		//alert('Am I refreshed?');
+		window.location.reload(true);
 	}
 	
 

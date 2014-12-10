@@ -6,8 +6,8 @@
  * @author dp
  */
 class NotesController extends AppController {
-    var $components = array('RequestHandler');
-    var $layout = 'ajax';  // uses the ajax layout
+    //var $components = array('RequestHandler');
+    //var $layout = 'ajax';  // uses the ajax layout
     //var $autoRender=false; // renders nothing by default
 
 	public function beforeFilter() {
@@ -18,25 +18,17 @@ class NotesController extends AppController {
 		$this->User->recursive = 0;
 		$this->set('notes', $this->paginate());
     }
-    public function add($date,$caseid,$code,$note) {
-		$data = array('Note' => array(
-					'noteDate' => $date,
-					'noteContent' => $note,
-					'rj_case_id'=> $caseid),
-					'Code' => array(
-						(int) 1 => array(
-						'id' => $code)));
-		//die(debug($data));
-
-		if ($this->Note->saveAll($data)) {
-			$this->Session->setFlash(__('The note has been saved'));
-			$this->RequestHandler->setContent('json','application/json');
-        	$this->set('data',json_encode($data));
-			$this->render('/Elements/ajaxreturn');
-		}else
-		{
-			$this->Session->setFlash(__('Error saving note'));
+    public function add() {
+    	$this->layout = null;
+    	$data = ($_POST);
+		$response = null;
+		if($this->Note->saveAll($data)){
+			$response = true;
+			$this->Session->setFlash(__('The Note was saved'));
+		} else {
+			$this->Session->setFlash(__('The Note could not be saved. Please, try again.'));
 		}
+		echo $response;
     }
     public function view($id = null) {
 			$this->Note->id=$id;
